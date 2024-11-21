@@ -54,7 +54,9 @@ a{
    margin-left: 10px;
 }
 .main{
-   margin-top: 67px;
+   padding: 67px 0 50px 0;
+   background-color: #F2F2F2;
+
 }
 .footer-bar{
    background-color: #FDF1EA;
