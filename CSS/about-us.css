@@ -1,107 +1,142 @@
 /*Sat Panha code*/
-
+.nav-container ul li:nth-child(2) a{
+  border-bottom: 3px solid #DE5D0A;
+  padding-bottom: 12px;
+}
+.main{
+  padding: 0 13% 0 13%;
+  background-color: #FFFFFF;
+}
 .container-about {
-   padding: 20px;
-   max-width: 1400px;
-   margin: 0 auto;
-   margin-top: 100px;
- }
- 
- .subtitle-about {
-   font-size: 18px;
-   color: #f37521;
-   text-transform: uppercase;
- }
- 
- .title-about {
-   font-size: 36px;
-   line-height: 1.4;
-   margin: 10px 0 30px;
- }
- 
- .info-about {
-   display: flex;
-   gap: 20px;
-   flex-wrap: wrap;
- }
- 
- .image-about {
-   position: relative;
-   max-width: 400px;
-   flex: 1;
- }
- 
- .image-about img {
-   width: 100%;
-   border-radius: 8px;
-   object-fit: cover;
- }
- 
- .label-about {
-   position: absolute;
-   bottom: 10px;
-   left: 10px;
-   background-color: #3a49d9;
-   color: #fff;
-   padding: 5px 10px;
-   font-size: 14px;
-   border-radius: 4px;
- }
- 
- .description-about {
-   flex: 2;
- }
- 
- .description-about h2 {
-   font-size: 24px;
-   margin-bottom: 10px;
- }
- 
- .description-about p {
-   font-size: 16px;
-   line-height: 1.6;
-   margin-bottom: 20px;
- }
- 
- .btn-about {
-   display: inline-block;
-   padding: 10px 20px;
-   background-color: #f37521;
-   color: #fff;
-   text-decoration: none;
-   font-size: 16px;
-   transition: background-color 0.3s;
- }
- 
- .btn-about:hover {
-   background-color: #d8641b;
- }
+  max-width: 1400px;
+  margin-top: 135px;
+}
+.subtitle-about {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(222, 93, 10);
+  letter-spacing: 2.3px;
+}
+.text-about{
+  height: 166.5px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.title-about {
+  font-size: 48px;
+  line-height: 1.4;
+  font-weight: 600;
+}
 
-/* sat panha */
-
-.nine-content-about-us{
+.info-about {
+  margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 12px;
 }
-.card img{
-  width: 25vw;
-  border-radius: 10px;
 
+.image-about {
+  position: relative;
+  grid-column: 1/2;
 }
-.card{
-  padding: 30px 0 10px 20px;
+
+.image-about img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  height: 320px;
 }
-.card a{
+
+.label-about {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #3a49d9;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.description-about {
+  grid-column: 2/3;
+  padding: 12px;
+}
+
+.description-about h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: rgb(29, 29, 29);
+  margin-bottom: 10px;
+}
+
+.description-about p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn-about {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #f37521;
+  width: 170px;
+  height: 45px;
+  text-align: center;
+  justify-content: center;
+  background-color: #DE5D0A;
   color: #fff;
   text-decoration: none;
   font-size: 16px;
   transition: background-color 0.3s;
 }
-.card p{
+
+.btn-about:hover {
+  background-color: #d8641b;
+}
+
+/* sat panha */
+
+.nine-content-about-us {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px 24px;
+  margin-top: 32px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;  
+}
+
+.card {
+  position: relative;
+  height: 320px;
+}
+.card-no-p{
+  height: 284px;
+}
+.card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DE5D0A;
+  color: #fff;
+  text-decoration: none;
+  width: 170px;
+  height: 45px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 174px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.card p {
   font-size: 14px;
   color: rgb(99, 98, 98);
+}
+.card h2{
+  font-size: 20px;
+  font-weight: 600;
 }
