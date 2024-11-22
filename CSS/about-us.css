@@ -69,12 +69,39 @@
    background-color: #f37521;
    color: #fff;
    text-decoration: none;
-   border-radius: 4px;
    font-size: 16px;
-   font-weight: bold;
    transition: background-color 0.3s;
  }
  
  .btn-about:hover {
    background-color: #d8641b;
  }
+
+/* sat panha */
+
+.nine-content-about-us{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+}
+.card img{
+  width: 25vw;
+  border-radius: 10px;
+
+}
+.card{
+  padding: 30px 0 10px 20px;
+}
+.card a{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f37521;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+.card p{
+  font-size: 14px;
+  color: rgb(99, 98, 98);
+}
