@@ -1,8 +1,8 @@
 .cover {
-   background-size: cover;
    object-fit: cover;
    width: 100%;
    height: 392px;
+   overflow: hidden;
    display: flex;
    justify-content: center;
    position: relative;
@@ -10,24 +10,26 @@
 
 .cover>img {
    width: 100%;
-   height: 392px;
-   object-fit: cover;
+   height: 460px;
+   object-fit:cover;
+   position: relative;
    z-index: 1;
 }
 
 .booking-trip {
    background-color: rgba(255, 255, 255, 0.85);
+   max-width: 1120px;
+   width: 100%;
    position: absolute;
-   top: 58%;
-   left: 50%;
+   top: 67.4%;
+   left: 48%;
    transform: translate(-50%, -50%);
    z-index: 10;
    display: grid;
-   grid-template-rows: repeat(2, 1fr);
-   width: 73vw;
+   grid-template-rows: repeat(2, auto);
    height: 105px;
    border-radius: 0.6rem;
-   padding: 14px 22px 23px 24px;
+   padding: 14px 22px 23px 22px;
 }
 
 .choose-region {
@@ -47,7 +49,6 @@
    flex-direction: row;
    column-gap: 12px;
    margin-top: 14px;
-   flex-wrap: wrap;
 }
 
 .input-infor>input {
@@ -67,19 +68,22 @@ label[for="non-cambodian"] {
 }
 
 .input-infor>input[list="place"] {
-   width: 260px;
+   max-width: 260px;
+   width: 100%;
    height: 40px;
    border-radius: 4px;
 }
 
 .input-infor>input[type="date"] {
-   width: 169px;
+   max-width: 169px;
+   width: 100%;
    height: 40px;
    border-radius: 4px;
 }
 
 .input-infor>button[type="submit"] {
-   width: 169px;
+   max-width: 169px;
+   width: 100%;
    height: 40px;
    border: none;
    background-color: #DE5D0A;
@@ -90,30 +94,24 @@ label[for="non-cambodian"] {
 }
 
 .travel-infor {
-   padding: 0px 13% 0 13%;
-   display: grid;
-   grid-template-columns: repeat(4, 1fr);
+   width: 100%;
    column-gap: 20px;
    row-gap: 20px;
+   grid-template-columns: repeat(4, auto); 
+   display: grid;
+   grid-template-rows: auto auto;
+   justify-content: center;
+   padding: 0 30px 0 30px;
+   
 }
-
-@media (max-width:1182px) {
-   .travel-infor {
-      grid-template-columns: repeat(3, 1fr);
-   }
-}
-
-@media (max-width:885px) {
-   .travel-infor {
-      grid-template-columns: repeat(2, 1fr);
-   }
-}
-
 .secend-header {
-   padding: 0px 13% 0 13%;
+   max-width: 1120px;
+   padding: 0 30px 0 30px;
+   width: 100%;
    display: flex;
    align-items: center;
    justify-content: space-between;
+   align-self: center;
    height: 91px;
 }
 
@@ -149,9 +147,10 @@ label[for="non-cambodian"] {
 .travel-infor>.box {
    height: 178px;
    border: 0.8px solid rgba(0, 0, 0, 0.12);
-   padding: 13px;
-   border-radius: 5px;
+   padding: 13.5px;
+   border-radius: 12px;
    justify-self: stretch;
+   background-color: #FFFFFF;
 }
 
 .infor-container {
@@ -230,8 +229,7 @@ label[for="non-cambodian"] {
    grid-template-rows: auto auto;
    width: 100%;
    justify-content: center;
-   /* justify-content: center; */
-   /* flex-direction: row; */
+   padding: 0 30px 0 30px;
 }
 
 .head-choose-service {
@@ -239,7 +237,6 @@ label[for="non-cambodian"] {
    align-items: center;
    flex-direction: column;
    margin: 60px 0px 0px 20px;
-   /* padding: 0 20px 0 20px; */
 }
 
 .head-choose-service>h2 {
@@ -260,21 +257,22 @@ label[for="non-cambodian"] {
 
 .sercive-container {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(4, 1fr);
+   max-width: 1144px;
+   width: 100%;
+   grid-template-columns: repeat(3, 1fr); 
    row-gap: 10px;
-   column-gap: 12px;
-   padding-bottom: 50px;
-   padding-top: 20px;
+   padding: 30px 0px 50px 0px;
+   margin: auto 0px auto 0px;
 }
 
 .service {
-   height: 157px;
-   padding: 12px;
+   max-height: 157px;
+   width: 100%;
+   padding: 12px 12px 28px 12px;
    display: grid;
    column-gap: 14px;
-   grid-template-columns: auto 263px;
-   grid-template-rows: 39px 78px;
+   grid-template-columns: auto auto;
+   grid-template-rows: 39px auto;
 }
 
 .service>img {
@@ -299,31 +297,36 @@ label[for="non-cambodian"] {
 .poster {
    height: 400px;
    background-image: linear-gradient(to right, #DC5C0C, #38297F);
+   display: flex;
 }
 
 .poster>img {
-   height: 100%;
-   width: 100%;
+   margin: auto;
+   width: 97vw;
+   height: 25vw;
 }
 
 .trending-place {
    display: grid;
+   /* grid-template-columns: repeat(3, 23.5vw); */
    grid-template-columns: repeat(3, 1fr);
-   padding: 0 13% 0 13%;
+   max-width: 1180px;
+   width: 100%;
+   margin: auto;
    column-gap: 1.2vw;
    margin-top: 50px;
+   padding: 0 30px 0 30px;
 }
 
 .trending-place>h3 {
    grid-column: 3 span;
-   margin: 0px 0px 16px;
+   margin: 0px 0px 24px;
    font-size: 36px;
    font-weight: 700;
 }
 
 .place-pic {
    height: 380px;
-   ;
    display: grid;
    align-items: flex-start;
    justify-items: left;
@@ -344,7 +347,7 @@ label[for="non-cambodian"] {
 
 .thai {
    background-image: url("../image/rhai.jpg");
-   background-size: cover;
+   background-size:cover;
 }
 
 .youn {
@@ -354,8 +357,11 @@ label[for="non-cambodian"] {
 
 .route-detial {
    color: rgba(0, 0, 0, 0.87);
+   max-width: 1180px;
+   padding: 0 30px 0 30px;
+   width: 100%;
+   margin: auto;
    font-size: 14px;
-   padding: 0 13% 0 13%;
    margin-top: 50px;
 }
 
@@ -377,6 +383,7 @@ ul {
 .local-route ul {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+   column-gap: 26px;
 }
 
 .international-route ul {
@@ -384,38 +391,50 @@ ul {
    grid-template-columns: repeat(4, 1fr);
    justify-content: flex-end;
    align-items: center;
+   column-gap: 26px;
 }
 
 .route-detial div ul li {
    height: 45px;
 }
-
-.sub-companies {
-   padding: 0 13% 0 13%;
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
-   column-gap: 24px;
+.companies{ 
+   max-width: 1144px;
+   width: 100%;
+   display: grid;
+   grid-template-rows: auto auto;
+   margin: auto;
 }
 .header-companies{
    font-size: 20px;
-   margin: 0px 0px 16px;
+   width: 100%;
    font-weight: 700;
    color: rgba(0, 0, 0, 0.87);
-   padding: 0 13% 0 13%;
+   width: 100%;
+   display: flex;
+   /* padding-bottom: 16px; */
+   margin: auto;
+   padding: 0 30px 16px 30px;
+}
+.sub-companies{
+   width: 100%; 
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   row-gap: 24px;
+   column-gap: 24px;
+   padding: 0 30px 16px 30px;
+
 }
 .sub-companies>a {
-   width: 205px;
    height: 124px;
    padding: 22px 25px 13px;
    border: 0.8px solid rgba(198, 198, 198, 0.25);
    align-items: center;
    justify-items: center;
    flex-grow: 1;
-   margin: 12px;
    color: rgb(49, 39, 131);
    background: white;
 }
 .sub-companies>a>img{
    margin-bottom: 5px;
 }
+
