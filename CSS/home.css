@@ -19,6 +19,7 @@ a{
    width: 100%;
    background-color: white;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   padding: 0 30px 0 30px;
 
 }
 .nav-container{
@@ -29,8 +30,8 @@ a{
    justify-content: center;
    align-items: center;
    justify-content: space-between;
-   max-width: 1180px;
-   margin: auto 30px auto 30px;
+   max-width: 1120px;
+   margin: auto;
 
 }
 .logo-nav{
@@ -71,11 +72,11 @@ a{
    flex-direction: column;
 }
 .foot-container{
-   max-width: 1180px;
+   max-width: 1120px; 
    width: 100%;
    display: grid;
    grid-template-columns: 66% 34%;
-   margin: auto 30px auto 30px;
+   margin: auto;
 }
 .left-footer{
    padding: 12px 0px 0px 0px;
@@ -139,7 +140,7 @@ address{
    margin-top: 12px;
 }
 .foot{
-   max-width: 1144px;
+   max-width: 1120px;
    width: 100%;
    margin: auto;
    padding: 0 30px 0px 30px;
@@ -148,5 +149,8 @@ address{
    justify-content: space-between;
    color: rgb(110, 110, 115);
    padding: 12px 0 12px 0;
-   border-top: 1px solid rgb(110, 110, 115);
+   border-top: 1px solid rgb(110, 110, 115); 
+}
+.trip-container{
+   display: none;
 }

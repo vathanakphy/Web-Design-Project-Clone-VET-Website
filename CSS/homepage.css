@@ -125,12 +125,12 @@ label[for="non-cambodian"] {
    font-size: 32px;
    font-weight: 600;
    color: #312783;
-   ;
 }
 
 .secend-header>.right-header>img {
    width: 25px;
    height: 25px;
+   margin: 10px 0 0 0;
 }
 
 .see-more {

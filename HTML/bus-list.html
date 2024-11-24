@@ -18,8 +18,8 @@
          href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Noto+Sans+Khmer:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
          rel="stylesheet">
       <title>Vireak Buntham Express</title>
+      <link rel="stylesheet" href="../CSS/bus-list.css">
       <link rel="stylesheet" href="../CSS/responsive/structure.css">
-
 </head>
 
 <body>
@@ -31,7 +31,7 @@
             </a>
             <ul>
                <li>
-                  <a href="home.html">Home</a>
+                  <a href="home.html" style="border: none;">Home</a>
                </li>
                <li>
                   <a href="about-us.html">About Us</a>
@@ -53,10 +53,178 @@
                </li>
             </ul>
             <i class="fas fa-bars"></i>
-
          </div>
       </nav>
       <div class="main">
+         <div class="container">
+            <div class="trip-path">
+               <span class="form">From</span>
+               <span class="start-place">Phnom Penh</span>
+               <div class="arrow">
+                  <img src="../image/arrow.svg" alt="arrow">
+               </div>
+               <span class="to-end">To</span>
+               <span class="end-place">Siem Reap</span>
+               <div class="null"></div>
+               <span class="departure">Departure</span>
+               <span class="date-start">2024-11-22</span>
+               <div class="button">
+                  <button type="submit">Modify</button>
+               </div>
+            </div>
+            <div class="trip-container">
+               <div class="trip-detial">
+                  <div class="head-detial-trip">
+                     <img src="../image/airbus-list.png" alt="airbus" class="type-vehicle">
+                     <div class="seat-road">
+                        <img src="../image/vet-air-bus.svg" alt="vet-logo" class="logo-trip-vehicle">
+                        <span class="vehicle">Luxury Hotel Bus</span>
+                        <span class="road-direction">Direct - Road No.6</span>
+                     </div>
+                     <div class="duration">
+                        <span class="head-duration">
+                           <h4>Departure</h4>
+                           <h4>Duration</h4>
+                           <h4>Arrival</h4>
+                        </span>
+                        <div class="time-tralvel-trip">
+                           <span class="time">01:00</span>
+                           <img src="../image/line-de-du.svg" alt="departure-duration">
+                           <span class="time">05:00h</span>
+                           <img src="../image/line-du-ar.svg" alt="duration-arival">
+                           <span class="time">06:00</span>
+                        </div>
+                     </div>
+                     <div class="seat-price">
+                        <span class="price-per-trip">$17</span>
+                     </div>
+                  </div>
+                  <div class="trip-foot">
+                     <div class="boarding">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Boarding: </div>
+                        <div style="color:red">-</div>
+                        <div style="max-width: 269px;">Phnom Penh (Cannon Rifle Roundabout Park) 01:00</div>
+                     </div>
+                     <div class="drop-off">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Drop Off: </div>
+                        <div style="color:red">-</div>
+                        <div>Siem Reap Huy Leng Market 06:00</div>
+                     </div>
+                     <div class="trip-infor">
+                        <img src="../image/infor-icon.svg" alt="infor-icon">
+                        <div class="tip">Trip Info</div>
+                     </div>
+                     <div class="status-car">
+                        <button type="submit">Left</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="trip-detial">
+                  <div class="head-detial-trip">
+                     <img src="../image/air-bus-35.png" alt="airbus" class="type-vehicle">
+                     <div class="seat-road">
+                        <img src="../image/vet-air-bus.svg" alt="vet-logo" class="logo-trip-vehicle">
+                        <span class="vehicle">Air Bus 35 Seats</span>
+                        <span class="road-direction">Direct - Express Way</span>
+                     </div>
+                     <div class="duration">
+                        <span class="head-duration">
+                           <h4>Departure</h4>
+                           <h4>Duration</h4>
+                           <h4>Arrival</h4>
+                        </span>
+                        <div class="time-tralvel-trip">
+                           <span class="time">07:30</span>
+                           <img src="../image/line-de-du.svg" alt="departure-duration">
+                           <span class="time">03:00h</span>
+                           <img src="../image/line-du-ar.svg" alt="duration-arival">
+                           <span class="time">10:30</span>
+                        </div>
+                     </div>
+                     <div class="seat-price">
+                        <span class="price-per-trip">$17</span>
+                     </div>
+                  </div>
+                  <div class="trip-foot">
+                     <div class="boarding">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Boarding: </div>
+                        <section class="place-bording">
+                           <div style="color:red">-</div>
+                           <div style="max-width: 269px;">Phnom Penh (Cannon Rifle Roundabout Park) 01:00</div>
+                           <div style="color:red">-</div>
+                           <div style="max-width: 269px;">Phnom Penh (Stueng Mean Chey) 07:30</div>
+                           <div style="color:red">-</div>
+                           <div style="max-width: 269px;">Phnom Penh (Chaom Chao) 08:00</div>
+                        </section>
+                     </div>
+                     <div class="drop-off">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Drop Off: </div>
+                        <div style="color:red">-</div>
+                        <div>Siem Reap Huy Leng Market 06:00</div>
+                     </div>
+                     <div class="trip-infor">
+                        <img src="../image/infor-icon.svg" alt="infor-icon">
+                        <div class="tip">Trip Info</div>
+                     </div>
+                     <div class="status-car">
+                        <button type="submit">Left</button>
+                     </div>
+                  </div>
+               </div>
+               <div class="trip-detial">
+                  <div class="head-detial-trip">
+                     <img src="../image/airbus-list.png" alt="airbus" class="type-vehicle">
+                     <div class="seat-road">
+                        <img src="../image/vet-air-bus.svg" alt="vet-logo" class="logo-trip-vehicle">
+                        <span class="vehicle">Luxury Hotel Bus</span>
+                        <span class="road-direction">Direct - Road No.6</span>
+                     </div>
+                     <div class="duration">
+                        <span class="head-duration">
+                           <h4>Departure</h4>
+                           <h4>Duration</h4>
+                           <h4>Arrival</h4>
+                        </span>
+                        <div class="time-tralvel-trip">
+                           <span class="time">01:00</span>
+                           <img src="../image/line-de-du.svg" alt="departure-duration">
+                           <span class="time">05:00h</span>
+                           <img src="../image/line-du-ar.svg" alt="duration-arival">
+                           <span class="time">06:00</span>
+                        </div>
+                     </div>
+                     <div class="seat-price">
+                        <span class="price-per-trip">$17</span>
+                     </div>
+                  </div>
+                  <div class="trip-foot">
+                     <div class="boarding">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Boarding: </div>
+                        <div style="color:red">-</div>
+                        <div style="max-width: 269px;">Phnom Penh (Cannon Rifle Roundabout Park) 01:00</div>
+                     </div>
+                     <div class="drop-off">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>Drop Off: </div>
+                        <div style="color:red">-</div>
+                        <div>Siem Reap Huy Leng Market 06:00</div>
+                     </div>
+                     <div class="trip-infor">
+                        <img src="../image/infor-icon.svg" alt="infor-icon">
+                        <div class="tip">Trip Info</div>
+                     </div>
+                     <div class="status-car">
+                        <button type="submit">Left</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
       <footer class="footer-bar">
          <div class="foot-container">
