@@ -22,3 +22,11 @@
    }
    
 }
+@media (max-width:470px){
+   .address-detail{
+      font-size: 12px;
+   }
+   address{
+   grid-template-columns: auto auto;
+   }
+}
