@@ -17,6 +17,9 @@
       <link
          href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Noto+Sans+Khmer:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
          rel="stylesheet">
+      <link rel="stylesheet" href="../CSS/homepage.css">
+      <link rel="stylesheet" href="../CSS/responsive/structure.css">
+      <link rel="stylesheet" href="../CSS/responsive/home.css">
       <title>Vireak Buntham Express</title>
 </head>
 
@@ -50,81 +53,401 @@
                   <a href="home.html">English<i class="fas fa-caret-down"></i></a>
                </li>
             </ul>
+            <i class="fas fa-bars"></i>
          </div>
       </nav>
       <div class="main">
-      </div>
-      <footer class="footer-bar">
-         <div class="foot-container">
-            <div class="left-footer">
-               <div class="head-foot-left">
-                  <img src="../image/vet-logo.png" alt="vet-logo" class="logo-foot">
-                  <h4>Vireak Buntham Express</h4>
+         <div class="cover">
+            <img src="../image/cover.c2ca682a.jpg" alt="cover">
+            <div class="booking-trip">
+               <div class="choose-region">
+                  <div class="option">
+                     <input type="radio" name="region" id="cambodian">
+                     <label for="cambodian">Cambodian</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" name="region" id="non-cambodia">
+                     <label for="non-cambodian">Non-Cambodian</label>
+                  </div>
                </div>
-               <div class="address-detail">
-                  <address>
-                     <span>HQ Address:</span>
-                     <p>
-                        #29 St. 47, Songkat Sras Jork,
-                        Khan Donpenh, Phnom Penh, Cambodia
-                     </p>
-                  </address>
-                  <div class="email">
-                     <span>Email:</span>
-                     <p>support@vireakbuntham.com</p>
-                  </div>
-                  <div class="phone">
-                     <span>Tel:</span>
-                     <p>(+855) 81 911 911</p>
-                  </div>
+               <div class="input-infor">
+                  <input list="place" id="departing" name="place" placeholder="Depaerting Form">
+                  <datalist id="place">
+                     <option value="Phnom Penh">
+                     <option value="Siem Reap">
+                     <option value="Sihanouk Ville">
+                     <option value="Battambang">
+                     <option value="Bangkok">
+                     <option value="Ho Chi Minh">
+                     <option value="Kratie">
+                     <option value="Snoul">
+                  </datalist>
+                  <input list="place" id="go-to" name="place" placeholder="Going To">
+                  <datalist id="place">
+                     <datalist id="place">
+                        <option value="Phnom Penh">
+                        <option value="Siem Reap">
+                        <option value="Sihanouk Ville">
+                        <option value="Battambang">
+                        <option value="Bangkok">
+                        <option value="Ho Chi Minh">
+                        <option value="Kratie">
+                        <option value="Snoul">
+                     </datalist>
+                  </datalist>
+                  <input type="date" name="travel-date" id="trvel-date" placeholder="2024-11-20">
+                  <input type="date" id="return-date" placeholder="Return Date">
+                  <button type="submit">Find Now</button>
                </div>
             </div>
-            <div class="right-footer">
-               <h5>Follow Us</h5>
-               <ul class="social-media-icon">
-                  <li>
-                     <a href="https://web.facebook.com/VirakBunthamExpress/?_rdc=1&_rdr" target="_blank">
-                        <img src="../image/facebook-icon.svg" alt="facebook-icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://t.me/virakbunthamexpress" target="_blank">
-                        <img src="../image/telegram-icon.svg" alt="telegram-icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.instagram.com/vireak_buntham/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
-                        <img src="../image/instagram-icon.svg" alt="instagram-icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.tiktok.com/@virakbuntham?_t=8dthpgdhhsf&_r=1" target="_blank">
-                        <img src="../image/tiktok-icon.svg" alt="tiktok-icon">
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.youtube.com/@virakbuntham668" target="_blank">
-                        <img src="../image/youtube-icon.svg" alt="youtube-icon">
-                     </a>
-                  </li>
+         </div>
+         <div class="secend-header">
+            <div class="right-header">
+               <h2>Flash Sale</h2>
+               <img src="../image/flash.svg" alt="flash">
+            </div>
+            <span class="see-more">See More</span>
+         </div>
+         <section class="travel-infor">
+            <div class="box">
+               <a href="./bus-list.html">
+                  <div class="infor-container">
+                     <div class="head">
+                        <img src="../image/vet-air-bus.svg" alt="logo">
+                        <span class="direction">
+                           Phnom Penh to Bavet (08:45)
+                        </span>
+                     </div>
+                     <span class="time-travel">
+                        Apply Period: 2024-11-01 to 2024-12-31
+                     </span>
+                     <span class="price-sale">
+                        <img src="../image/price.jfif" alt="price">
+                        <span class="sell-now">$12</span>
+                        <span class="sell-discount">$19</span>
+                     </span>
+                     <button type="submit">Book Now</button>
+                  </div>
+               </a>
+            </div>
+            <div class="box">
+               <a href="./bus-list.html">
+                  <div class="infor-container">
+                     <div class="head">
+                        <img src="../image/vet-air-bus.svg" alt="logo">
+                        <span class="direction">
+                           Phnom Penh to Bavet (08:45)
+                        </span>
+                     </div>
+                     <span class="time-travel">
+                        Apply Period: 2024-11-01 to 2024-12-31
+                     </span>
+                     <span class="price-sale">
+                        <img src="../image/price.jfif" alt="price">
+                        <span class="sell-now">$12</span>
+                        <span class="sell-discount">$19</span>
+                     </span>
+                     <button type="submit">Book Now</button>
+                  </div>
+               </a>
+            </div>
+            <div class="box">
+               <a href="./bus-list.html">
+                  <div class="infor-container">
+                     <div class="head">
+                        <img src="../image/vet-air-bus.svg" alt="logo">
+                        <span class="direction">
+                           Phnom Penh to Bavet (08:45)
+                        </span>
+                     </div>
+                     <span class="time-travel">
+                        Apply Period: 2024-11-01 to 2024-12-31
+                     </span>
+                     <span class="price-sale">
+                        <img src="../image/price.jfif" alt="price">
+                        <span class="sell-now">$12</span>
+                        <span class="sell-discount">$19</span>
+                     </span>
+                     <button type="submit">Book Now</button>
+                  </div>
+               </a>
+            </div>
+            <div class="box">
+               <a href="./bus-list.html">
+                  <div class="infor-container">
+                     <div class="head">
+                        <img src="../image/vet-air-bus.svg" alt="logo">
+                        <span class="direction">
+                           Phnom Penh to Bavet (08:45)
+                        </span>
+                     </div>
+                     <span class="time-travel">
+                        Apply Period: 2024-11-01 to 2024-12-31
+                     </span>
+                     <span class="price-sale">
+                        <img src="../image/price.jfif" alt="price">
+                        <span class="sell-now">$12</span>
+                        <span class="sell-discount">$19</span>
+                     </span>
+                     <button type="submit">Book Now</button>
+                  </div>
+               </a>
+            </div>
+         </section>
+         <div class="choose-service">
+            <div class="head-choose-service">
+               <h2>Why Choose Us <span>!</span></h2>
+               <p>Our schedule covers the major destinations in Cambodia and also operate to Bangkok and Ho Chi Minh
+                  City.</p>
+            </div>
+            <div class="sercive-container">
+               <div class="service">
+                  <img src="../image/service/complimentary.svg" alt="service">
+                  <h3>Complimentary</h3>
+                  <p>
+                     We offer a bottle of pure drinking water on board
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/liability.svg" alt="service">
+                  <h3>Liability Insurance</h3>
+                  <p>
+                     All of our fleets are covering by liability insurance both domestic and international route.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/power-usb.svg" alt="service">
+                  <h3>Power & USB Charger</h3>
+                  <p>
+                     All our fleet equip individual power outlet or USB charger to make sure your device battery is
+                     fully charged during trip.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/customer.svg" alt="service">
+                  <h3>Customer Service</h3>
+                  <p>
+                     Our 24h call center rep are ready to answer all your question related to your trip both Khmer &
+                     English speaking.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/air-conditioned.svg" alt="service">
+                  <h3>Air Conditioned</h3>
+                  <p>
+                     Cambodia is hot country, the air-condition is always check up by our professional indoor mechanic
+                     to confirm we are not ruining your trip.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/payment.svg" alt="service">
+                  <h3>Payment & Ticket</h3>
+                  <p>
+                     You can purchase our ticket and pay real time with varieties of payment method and our e-ticket
+                     will send to your email.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/comfortble.svg" alt="service">
+                  <h3>Comfortable Seat</h3>
+                  <p>
+                     Generally, van is equipping the seat up to 17 Seats but we want you to have more space we
+                     eliminated 6 seats out to have enough room and reclinable.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/gps.svg" alt=" service">
+                  <h3>GPS Tracking System</h3>
+                  <p>
+                     To ensure our driver operate the bus compliance to speed limited, our full-time tracking staffs are
+                     monitoring all of our fleets.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/schedule.svg" alt="service">
+                  <h3>Schedule</h3>
+                  <p>
+                     We are top range in Cambodia with varieties of schedule from city-to-city in Cambodia, Bangkok and
+                     Ho Chi Minh which make you convenience to plan your trip.
+                  </p>
+               </div>
+               <div class="service">
+                  <img src="../image/service/our-driver.svg" alt="service">
+                  <h3>Our Driver</h3>
+                  <p>
+                     Our driver is professionally recruited & trained by our HR team to ensure our driver is in good
+                     shape to operate the bus safely.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="poster">
+            <img src="../image/vet-poster.png" alt="poster">
+         </div>
+         <div class="trending-place">
+            <h3>Explore Trending Places</h3>
+            <div class="place-pic cam">
+               <h4>Cambodian</h4>
+            </div>
+            <div class="place-pic thai">
+               <h4>Thailand</h4>
+            </div>
+            <div class="place-pic youn">
+               <h4>Vietnam</h4>
+            </div>
+         </div>
+         <div class="route-detial">
+            <div class="local-route">
+               <h4>Local Route - Cambodia</h4>
+               <ul>
+                  <li><a href="./bus-list.html">Phnom Penh - Siem Reap</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Sihanouk Ville</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Poi Pet</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Battambang</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Rattanakiri</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Mondulkiri</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Stueng Treng</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Kampong Cham</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Kampot</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Koh Kong</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Koh Sdach</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Koh Nhaek</a></li>
                </ul>
-               <div class="payment-accept">
-                  <h5>We Accept</h5>
-                  <img src="../image/payment.png" alt="payment">
+            </div>
+            <div class="international-route">
+               <h4>International Route - Thailand & Vietnam & Laos</h4>
+               <ul>
+                  <li><a href="./bus-list.html">Phnom Penh - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Battambang - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Siem Reap - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Banteay Meanchey - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Poi Pet - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Sihanouk Ville - Bangkok</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Trat</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Ho Chi Minh</a></li>
+                  <li><a href="./bus-list.html">Svay Rieng - Ho Chi Minh</a></li>
+                  <li><a href="./bus-list.html">Bavet - Ho Chi Minh</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Siem Reap - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Sihanouk Ville - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Mondulkiri - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Kratie - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Rattanakiri - Vientiane ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Siem Reap - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Kratie - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Preah Vihear - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Sihanouk Ville - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Mondulkiri - Nakasang</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Siem Reap - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Sihanouk Ville - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Mondulkiri - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Kratie - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Preah Vihear - Don Det (4000 Island)</a></li>
+                  <li><a href="./bus-list.html">Phnom Penh - Pakse ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Siem Reap - Pakse ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Kratie - Pakse ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Preah Vihear - Pakse ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Sihanouk Ville - Pakse ( Laos )</a></li>
+                  <li><a href="./bus-list.html">Mondulkiri - Pakse ( Laos )</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="companies">
+            <h4 class="header-companies">Our Subsidiary Companies</h4>
+            <div class="sub-companies">
+               <a href="https://www.buvasea.com/">
+                  <img src="../image/buva-sea.svg" alt="buva-sea">
+                  <h4>Buva Sea</h4>
+               </a>
+               <a href="./home.html">
+                  <img src="../image/airbus.svg" alt="airbus">
+                  <h4>VET Air Bus</h4>
+               </a>
+               <a href="./resort.html">
+                  <img src="../image/resort.svg" alt="resort">
+                  <h4>Resort</h4>
+               </a>
+               <a href="https://www.vtenh.com/en/">
+                  <img src="../image/vtech.svg" alt="vtenh">
+                  <h4>VTENH</h4>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer class="footer-bar">
+      <div class="foot-container">
+         <div class="left-footer">
+            <div class="head-foot-left">
+               <img src="../image/vet-logo.png" alt="vet-logo" class="logo-foot">
+               <h4>Vireak Buntham Express</h4>
+            </div>
+            <div class="address-detail">
+               <address>
+                  <span>HQ Address:</span>
+                  <p>
+                     #29 St. 47, Songkat Sras Jork,
+                     Khan Donpenh, Phnom Penh, Cambodia
+                  </p>
+               </address>
+               <div class="email">
+                  <span>Email:</span>
+                  <p>support@vireakbuntham.com</p>
+               </div>
+               <div class="phone">
+                  <span>Tel:</span>
+                  <p>(+855) 81 911 911</p>
                </div>
             </div>
          </div>
-         <div class="foot">
-            <span class="copyright">
-               Copyright © 2023 vireakbuntham.com. All rights reserved.
-            </span>
-            <span class="link">
-               <a href="terms-conditions.html">Terms & Conditions </a>
-               <span> | </span>
-               <a href="policy.html">Privacy Policy</a>
-            </span>
+         <div class="right-footer">
+            <h5>Follow Us</h5>
+            <ul class="social-media-icon">
+               <li>
+                  <a href="https://web.facebook.com/VirakBunthamExpress/?_rdc=1&_rdr" target="_blank">
+                     <img src="../image/facebook-icon.svg" alt="facebook-icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://t.me/virakbunthamexpress" target="_blank">
+                     <img src="../image/telegram-icon.svg" alt="telegram-icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.instagram.com/vireak_buntham/?igshid=MzRlODBiNWFlZA%3D%3D" target="_blank">
+                     <img src="../image/instagram-icon.svg" alt="instagram-icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.tiktok.com/@virakbuntham?_t=8dthpgdhhsf&_r=1" target="_blank">
+                     <img src="../image/tiktok-icon.svg" alt="tiktok-icon">
+                  </a>
+               </li>
+               <li>
+                  <a href="https://www.youtube.com/@virakbuntham668" target="_blank">
+                     <img src="../image/youtube-icon.svg" alt="youtube-icon">
+                  </a>
+               </li>
+            </ul>
+            <div class="payment-accept">
+               <h5>We Accept</h5>
+               <img src="../image/payment.png" alt="payment">
+            </div>
          </div>
-      </footer>
+      </div>
+      <div class="foot">
+         <span class="copyright">
+            Copyright © 2023 vireakbuntham.com. All rights reserved.
+         </span>
+         <span class="link">
+            <a href="terms-conditions.html">Terms & Conditions </a>
+            <span> | </span>
+            <a href="policy.html">Privacy Policy</a>
+         </span>
+      </div>
+   </footer>
    </div>
 </body>
 

@@ -19,7 +19,8 @@ a{
    width: 100%;
    background-color: white;
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   padding: 0 13% 0 13%;
+   padding: 0 30px 0 30px;
+
 }
 .nav-container{
    width: 100%;
@@ -29,6 +30,9 @@ a{
    justify-content: center;
    align-items: center;
    justify-content: space-between;
+   max-width: 1120px;
+   margin: auto;
+
 }
 .logo-nav{
    width: 50px;
@@ -52,19 +56,28 @@ a{
 }
 .fa-caret-down{
    margin-left: 10px;
+   color: #DE5D0A;
 }
 .main{
-   height: 100vh;
+   padding: 67px 0px 50px 0px;
+   background-color: #F2F2F2;
+   display: flex;
+   flex-direction: column;
+   width: 100%;
 }
 .footer-bar{
    background-color: #FDF1EA;
    width: 100%;
-   padding: 0px 13% 0 13%;
+   display: flex;
+   padding: 0 30px 0 30px;
+   flex-direction: column;
 }
 .foot-container{
+   max-width: 1120px; 
    width: 100%;
    display: grid;
    grid-template-columns: 66% 34%;
+   margin: auto;
 }
 .left-footer{
    padding: 12px 0px 0px 0px;
@@ -128,11 +141,17 @@ address{
    margin-top: 12px;
 }
 .foot{
+   max-width: 1120px;
+   width: 100%;
+   margin: auto;
+   padding: 0 30px 0px 30px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
    color: rgb(110, 110, 115);
    padding: 12px 0 12px 0;
-   border-top: 1px solid rgb(110, 110, 115);
+   border-top: 1px solid rgb(110, 110, 115); 
 }
-
+.trip-container{
+   display: none;
+}

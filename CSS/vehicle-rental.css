@@ -1,0 +1,29 @@
+/* the see more see less work */
+#moreTxt{
+    display:none;
+}
+ input[type="checkbox"]:checked+label+#moreTxt{
+    display:inline;
+ }
+ label::after{
+    content: "See more";
+    color: blue;
+    cursor: pointer;
+ }
+ input[type="checkbox"]:checked+label::after{
+   content: "See less";
+   
+ }
+ input[type="checkbox"]{
+    display: none;
+ }
+/* end see more see less */
+/* the tilte */
+.top{
+    width: 70vh;
+    text-align: center;
+    margin-top:18vh;
+    margin: auto;
+   
+    
+}
