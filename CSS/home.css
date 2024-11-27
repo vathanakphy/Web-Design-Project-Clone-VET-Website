@@ -42,9 +42,9 @@ a{
 .nav-container ul{
    display: flex;
    flex-direction: row;
+   column-gap: 31px;
 }
 .nav-container ul li{
-   margin: 0 10px 0 10px;
    text-decoration: none;
    list-style: none;
    color: black;
