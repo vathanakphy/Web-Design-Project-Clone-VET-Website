@@ -32,6 +32,7 @@ a{
    justify-content: space-between;
    max-width: 1120px;
    margin: auto;
+   padding-bottom: 8px;
 
 }
 .logo-nav{
@@ -43,7 +44,7 @@ a{
    flex-direction: row;
 }
 .nav-container ul li{
-   margin: 0 23px 0 23px;
+   margin: 0 10px 0 10px;
    text-decoration: none;
    list-style: none;
    color: black;

@@ -20,10 +20,39 @@
 /* end see more see less */
 /* the tilte */
 .top{
-    width: 70vh;
+    
     text-align: center;
     margin-top:18vh;
     margin: auto;
    
     
+}
+.nav-container ul li:nth-child(3) a{
+   border-bottom: 3px solid #DE5D0A;
+   padding-bottom: 12px;
+}
+.nav-container ul li:nth-child(1) a{
+   border: none;
+}
+.main{
+   background-color: #FFFFFF;
+   padding: 0% 10% 0% 10%;
+}
+.content-vehicle{
+   max-width: 1400px;
+   margin-top: 125px;
+
+}
+.sub-title{
+   font-size: 15px;
+   font-weight: 400;
+   color: rgb(222, 93, 10);
+   letter-spacing: 2.3px;
+
+}
+.title{
+   font-size: 36px;
+   line-height: 1.4;
+   font-weight: 600;
+   white-space: nowrap;/*  not get other line with long p */
 }
