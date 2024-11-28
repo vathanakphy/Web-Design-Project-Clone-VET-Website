@@ -54,119 +54,20 @@
     margin-left: 10px;
  }
  .main{
-    
-    margin-top: 100px;
-    display: flex;
-    max-width: 1260px;
-    width: 100%;
-    justify-content: center;
-    
-    
+    height: 180vh;
  }
- .core{
-   margin-top: 50px;
-   margin-left: 170px;
-   max-width: 600px;
-   width: 100%;
-
+ .transport{
+   margin-top: 150px;
+   margin-left: 200px;
  }
- .up{
-   display: flex;
- }
- .up h1{
-   font-size: 2.2em;
-   font-weight: 500;
- }
- .core p{
-   line-height: 2;
-   font-size: 0.9em;
- }
- .up img{
-   margin-top: 15px;
-   margin-left: 10px;
- }
- .card{
-   margin-left: 50px;
-   display: grid;
-   grid-template-columns: repeat(2,500px);
-   column-gap: 30px;
-   row-gap: 30px;
-   height: 30vw;
-   margin-right: auto;
+ .transport a{
+   font-size: 1.2em;
    
  }
- .card1{
-  background-color:rgb(235, 134, 134);
-  border-radius: 20px;
-   border: 1px solid white;
-  
-  
+ a:hover{
+   color: #DE5D0A;
+   cursor: pointer;
  }
- .card1 img{
-  margin-left: 190px;
-  margin-top: 15px;
- }
- .card1 p{
-   color: white;
-   font-size: 0.8em;
-   text-align: start;
-  margin-left: 10px;
-   line-height: 2;
-   
- }
- .card2{
-  background-color:rgb(0, 174, 255);
-  border-radius: 20px;
-   border: 1px solid white;
-   
- }
- .card2 p{
-   color: white;
-   font-size: 0.8em;
-   text-align: start;
-   margin-left: 20px;
-   line-height: 2;
- }
- .card2 img{
-   margin-left: 190px;
-   margin-top: 15px;
-  }
-
- .card3{
-  background-color:rgb(249, 189, 36);
-  border-radius: 20px;
-   border: 1px solid white;
-   height: 95%;
- }
- .card3 p{
-   color: white;
-   font-size: 0.8em;
-   text-align: start;
-   margin-left: 20px;
-   line-height: 2;
- }
- .card3 img{
-   margin-left: 190px;
-   margin-top: 15px;
-  }
- .card4{
-   background-color:rgb(235, 134, 134);
-  border-radius: 20px;
-   border: 1px solid white;
-   height: 95%;
- }
- .card4 p{
-   color: white;
-   font-size: 0.85em;
-   text-align: start;
-   margin-left: 20px;
-   line-height: 2;
- }
- .card4 img{
-   margin-left: 190px;
-   margin-top: 15px;
-  }
- 
  .footer-bar{
     background-color: #FDF1EA;
     width: 100%;
@@ -246,22 +147,3 @@
     padding: 12px 0 12px 0;
     border-top: 1px solid rgb(110, 110, 115);
  }
- @media (max-width: 967px){
-   .main{
-      max-width: 967px;
-      display: block;
-
-   }
-   .card{
-   
-    grid-template-columns: repeat(2,1fr);
-    margin-right: auto;
-    justify-content: center;
-   }
-   .card img{
-      justify-content: start;
-     
-   }
- }
- 
- 
