@@ -1,0 +1,32 @@
+.fa-bars{
+   display: none;
+   font-size: 18px;
+}
+@media (max-width:950px) {
+   .nav-container > ul {
+      display: none; 
+   }
+   .fa-bars{
+      display: block;
+   }
+   .foot-container{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .foot{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+   }
+   
+}
+@media (max-width:470px){
+   .address-detail{
+      font-size: 12px;
+   }
+   address{
+   grid-template-columns: auto auto;
+   }
+}

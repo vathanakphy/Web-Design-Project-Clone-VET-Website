@@ -1,0 +1,126 @@
+.main {
+   display: flex;
+   padding: 140px 30px 38px 30px;
+}
+
+.mian-container {
+   max-width: 1120px;
+   margin: auto;
+}
+
+ .mian-container>h1 {
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 2.5rem;
+    color: #DE5D0A;
+ }
+
+ .mian-container>p {
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 30.4px;
+    color: rgb(66, 66, 69);
+ }
+
+ .our-slogan {
+    display: flex;
+    gap: 15px;
+    /* margin-left: 200px; */
+    margin-top: 60px;
+    margin-left: 20px;
+ }
+
+ .our-slogan h2 {
+    /* color: rgb(45, 45, 220); */
+    color: rgb(49, 39, 131);
+    font-size: 2.3rem;
+    font-weight: 600;
+ }
+
+ ul {
+    /* margin-left: 230px; */
+    margin-top: 10px;
+    margin-left: 45px;
+
+ }
+
+ li {
+    padding: 5px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+ }
+
+ .down-content {
+   margin: auto;
+   max-width: 1120px;
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   margin-top: 64px;
+   column-gap: 24px;
+   row-gap: 40px;
+ }
+
+ .down-content>div>img {
+    /* max-width: 357px; */
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 220px;
+ }
+
+ /* .content1 img {
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 200px;
+ } */
+
+ .content1 p {
+    /* margin-left: 200px; */
+    padding: 5px;
+    text-align: start;
+ }
+
+ /* .content2 img {
+    width: 530px;
+    border: 1px solid white;
+    border-radius: 20px;
+ } */
+
+ .content2 p {
+    margin-right: 10px;
+    padding: 5px;
+    text-align: start;
+
+
+ }
+
+
+ .content3 li {
+    font-size: 1em;
+    line-height: 0.8;
+ }
+ @media (max-width:960px){
+   .down-content {
+      grid-template-columns: repeat(2, auto);
+    }
+ }
+ @media (max-width:600px){
+   .down-content {
+      grid-template-columns: 1fr;
+    }
+ }
+ @media (max-width:450px){
+   .mian-container>h1 {
+      text-align: left;
+      font-size: 26px;
+   }
+   .mian-container>p {
+      text-align: left;
+   }
+ }
