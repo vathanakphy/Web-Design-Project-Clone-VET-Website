@@ -56,3 +56,51 @@
    font-weight: 600;
    white-space: nowrap;/*  not get other line with long p */
 }
+.title-para{
+   text-align: center;
+   max-width: 750px;
+   margin: auto;
+   font-size: 14px;
+   color: black;
+   line-height: 1.6;
+    
+
+}
+.under-top {
+   display: flex;
+   justify-content: center;
+   margin-top: 16px;
+
+
+}
+.under-top button{
+   margin-left: 10px;
+   background-color: white;
+   border-radius: 8px;
+   width: 150px;
+   height: 36px;
+   color: rgb(255, 144, 75);
+   font-weight: 700;
+   font-size: 15px;
+   position: relative;
+   padding-bottom: 10px;
+
+   
+}
+.under-top button img{
+   
+   width: 26px;
+   height: auto;
+   
+}
+.under-top p{
+   font-size: 24px;
+   color: #404040;
+  
+}
+.image1{
+   
+   object-fit: cover;
+   border-radius: 1px;
+   
+}

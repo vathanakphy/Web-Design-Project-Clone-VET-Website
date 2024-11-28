@@ -122,7 +122,6 @@
 
 .card a {
   display: inline-block;
-  padding: 10px 20px;
   background-color: #DE5D0A;
   color: #fff;
   text-decoration: none;
@@ -133,8 +132,9 @@
   border-bottom-right-radius: 10px;
   position: absolute;
   top: 174px;
-  right: 0px;
-  bottom: 0px;
+  right: 10px;
+  bottom: 10px;
+  align-self: flex-end;
 }
 
 .card p {
