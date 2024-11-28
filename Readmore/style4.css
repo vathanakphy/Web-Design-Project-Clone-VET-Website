@@ -54,7 +54,7 @@
     margin-left: 10px;
  }
  .main{
-   max-width: 1120px;
+   width: 100%;
    margin: auto;
     
    
@@ -187,7 +187,7 @@
     padding: 12px 0 12px 0;
     border-top: 1px solid rgb(110, 110, 115);
  }
- @media (max-width: 967px) {
+ @media (max-width: 1024px) {
    .content{
       display: grid;
       

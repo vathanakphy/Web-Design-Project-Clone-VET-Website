@@ -241,63 +241,12 @@
  .phrase3,.phrase4{
    max-width: 1120px;
  }
-/* 
- .phrase1 {
-    padding: 10px;
- }
 
- .phrase2 {
-    padding: 10px;   
- }
-
- .phrase3 {
-    padding: 10px;
- }
-
-@media (max-width: 768px) {
-   .up-content{
-      grid-template-columns: 1fr;
-   }
-   .right-content{
-      top: 180px;
-   }
-  
-   .up-content img {
-       /* max-width: 25%; */
-       top: 30px;
-       height: 381px;
-       width: 260px;
-       margin-bottom: 15px;
-       /* position: relative; */
-       /* z-index: 2; */
-       /* left: -20px;     */
-   }
    .decrition{
       margin-left: 180px;
       
    }
-   /* .right-content {
-      position: absolute;
-      top:-170px;
-      
-   } */
-
-    /* .para {
-       font-size: 1rem;
-       grid-column: 1 span; 
-   }
-   .decrition{
-      font-size: 0.9rem;
-      margin-left: 100px;
-     
-      
-      
-      
-   }
-   .footer-bar{
-      margin-top: 200px;
-   } */
-
+   
 @media (max-width: 750px) {
    #infor{
       border-top: none;
