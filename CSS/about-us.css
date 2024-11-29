@@ -115,9 +115,11 @@
   position: relative;
   height: 320px;
 }
+
 .card-no-p{
   height: 284px;
 }
+
 .card a {
   display: inline-block;
   background-color: #DE5D0A;
