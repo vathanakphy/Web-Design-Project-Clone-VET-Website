@@ -1,0 +1,9 @@
+@media(max-width7: 768px){
+    main{
+        display: flex;
+        max-width: 768px;
+    }    
+    .title{
+        max-width: 768px;
+    }
+}
