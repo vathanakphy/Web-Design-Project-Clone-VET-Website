@@ -71,19 +71,12 @@
                   </div>
                </div>
                <div class="input-infor">
-                  <input list="place" id="departing" name="place" placeholder="Depaerting Form">
-                  <datalist id="place">
-                     <option value="Phnom Penh">
-                     <option value="Siem Reap">
-                     <option value="Sihanouk Ville">
-                     <option value="Battambang">
-                     <option value="Bangkok">
-                     <option value="Ho Chi Minh">
-                     <option value="Kratie">
-                     <option value="Snoul">
-                  </datalist>
-                  <input list="place" id="go-to" name="place" placeholder="Going To">
-                  <datalist id="place">
+                  <div class="select-form">
+                     <input list="place" id="departing" name="place" placeholder="Departing Form">
+                     <div class="place-holder forward">
+                        <img src="../image/forward.svg" alt="forward">
+                        <!-- <span>Departing Form</span> -->
+                     </div>
                      <datalist id="place">
                         <option value="Phnom Penh">
                         <option value="Siem Reap">
@@ -94,10 +87,40 @@
                         <option value="Kratie">
                         <option value="Snoul">
                      </datalist>
-                  </datalist>
-                  <input type="date" name="travel-date" id="trvel-date" placeholder="2024-11-20">
-                  <input type="date" id="return-date" placeholder="Return Date">
-                  <button type="submit">Find Now</button>
+                  </div>
+                  <div class="select-form">
+                     <input list="place" id="go-to" name="place" placeholder="Going To">
+                     <div class="place-holder going-to">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <!-- <span>Going To</span> -->
+                     </div>
+                     <datalist id="place">
+                        <option value="Phnom Penh">
+                        <option value="Siem Reap">
+                        <option value="Sihanouk Ville">
+                        <option value="Battambang">
+                        <option value="Bangkok">
+                        <option value="Ho Chi Minh">
+                        <option value="Kratie">
+                        <option value="Snoul">
+                     </datalist>
+                  </div>
+                  <div class="date-form ">
+                     <input type="text" id="trvel-date" placeholder="2024- 11 -29" onfocus="this.type='date'" onblur="this.type='text'" value="">
+                     <div class="place-holder start-place" id="start-place">
+                        <img src="../image/date-input.svg" alt="date">
+                        <!-- <span>2024- 11 -29</span>         -->
+                     </div>
+                  </div>
+                  <div class="date-form">
+                     <input type="text" id="return-date" placeholder="" onfocus="this.type='date'" onblur="this.type='text'" value="">
+                     <!-- <input type="date" id="return-date"  onfocus="this.type='date'" onblur="this.type='text'" value=""> -->
+                     <div class="place-holder end-place" id="end-place">
+                        <img src="../image/date-input.svg" alt="date">
+                        <span>Return Date</span>
+                     </div>
+                  </div>
+                  <button type="submit" class="find-btn">Find Now</button>
                </div>
             </div>
          </div>

@@ -114,3 +114,80 @@
       grid-template-columns: 1fr;
    }
 }
+@media (max-width:1170px) {
+   .booking-trip {
+      width: 92.1vw;
+   }
+   .select-form>input{
+      width: 21vw; 
+   }
+   .input-infor>button[type="submit"] {
+      width: 13.58vw; 
+   }
+   input[type="date"]{
+      width: 13.58vw; 
+   }
+   input[type="text"]{
+      width: 13.58vw; 
+   }
+}
+@media (max-width:950px) {
+   .input-infor {
+   display: flex;
+   flex-direction: column;
+   row-gap:5px;
+   margin-top: 14px;
+   }
+   .booking-trip {
+      background-color: rgba(255, 255, 255, 0.85);
+      max-width: 1120px;
+      width: 94.5%;
+      position: absolute;
+      top: 226px;
+      left: 50%;  
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      display: grid;
+      grid-template-rows: repeat(2, auto);
+      height: 288px;
+   }
+   .select-form>input{
+      max-width: 100%;
+      width: 100%;
+   }
+   .input-infor>button[type="submit"] {
+      max-width: 100%;
+      width: 100%;
+      margin-top: 10px;
+   }
+   input[type="date"]{
+      max-width: 100%;
+      width: 100%;
+   }
+   input[type="text"]{
+      max-width: 100%;
+      width: 100%;
+   }
+   .place-holder{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      color: #757575;
+      bottom: auto;
+      padding-left: 11px;
+   }
+   .forward{
+      top: 56px;
+   }
+   .going-to{
+      top: 104px;
+   }
+   .start-place{
+      top: 148px;
+      margin-left: 4px;
+   }
+   .end-place{
+      top: 192px;
+      margin-left: 4px;
+   }
+}

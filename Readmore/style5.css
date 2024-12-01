@@ -186,20 +186,10 @@ address{
  .card{
    display: grid;
    grid-template-columns: repeat(2, auto);
-   column-gap: 20px;
-   row-gap: 20px;
+   column-gap: 30px;
+   row-gap: 30px;
    margin-top: 10px;
    margin: 0 auto;
-   
-
-   
- }
- .card > div{
-   padding: 20px;
-   max-width: 431px;
-   height: 300px;
-   font-size: 1em;
-   overflow: hidden;
    
  }
  .card img {
@@ -210,9 +200,8 @@ address{
  
  .card1{
   background-color:rgb(235, 134, 134);
-   border-radius: 20px;
+  border-radius: 20px;
    border: 1px solid white;
-   align-items: center;
    
    
   
@@ -224,8 +213,7 @@ address{
    font-size: 0.8em;
    text-align: start;
   margin-left: 10px;
-  line-height: 1.5;
-  
+   line-height: 2;
    
  }
  .card2{
@@ -239,8 +227,7 @@ address{
    font-size: 0.8em;
    text-align: start;
    margin-left: 20px;
-   line-height: 1.5;
-  
+   line-height: 2;
  }
 
  .card3{
@@ -254,8 +241,7 @@ address{
    font-size: 0.8em;
    text-align: start;
    margin-left: 20px;
-   line-height: 1.5;
-   
+   line-height: 2;
  }
  
  .card4{
@@ -269,8 +255,7 @@ address{
    font-size: 0.85em;
    text-align: start;
    margin-left: 20px;
-   line-height: 1.5;
-   
+   line-height: 2;
  }
  
   
@@ -283,7 +268,6 @@ address{
   .card{
    display: grid;
    grid-template-columns: 1fr;
-   overflow: hidden;
   }
   
   .card p{
@@ -318,9 +302,6 @@ address{
    .core{
       font-size: 14px;
       margin-top: 20px;
-      margin-left: 20px;
-      align-items: center;
-      justify-content: center;
      
    }
  }
@@ -337,12 +318,10 @@ address{
       grid-template-columns: 90vw;
       max-width:  100%;
       justify-content: center;
-     overflow: hidden;
+     
       
    }
-  .card p{
-   font-size: 0.7rem;
-  }
+  
   
       
    
