@@ -30,3 +30,14 @@
    grid-template-columns: auto auto;
    }
 }
+@media (min-width:1550){
+   .nav-container{
+      /* max-width: 1120px; */
+      /* width: 100%; */
+      width: 80.73%;
+   }
+   .foot{
+      /* max-width: 1120px; */
+      width: 80.73%;
+   }
+}
