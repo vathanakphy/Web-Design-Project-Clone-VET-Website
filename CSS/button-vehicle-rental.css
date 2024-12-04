@@ -1,0 +1,202 @@
+/* the see more see less work */
+#moreTxt{
+    display:none;
+}
+ input[type="checkbox"]:checked+label+#moreTxt{
+    display:inline;
+ }
+ label::after{
+    content: "See more";
+    color: blue;
+    cursor: pointer;
+ }
+ input[type="checkbox"]:checked+label::after{
+   content: "See less";
+   
+ }
+ input[type="checkbox"]{
+    display: none;
+ }
+/* end see more see less */
+/* the tilte */
+.top{
+    
+    text-align: center;
+    margin-top:1vh;
+    margin-right: 10vh;
+    
+   
+    
+}
+.nav-container ul li:nth-child(3) a{
+   border-bottom: 3px solid #DE5D0A;
+   padding-bottom: 12px;
+}
+.nav-container ul li:nth-child(1) a{
+   border: none;
+}
+.main{
+   background-color: #FFFFFF;
+   padding: 0% 10% 0% 10%;
+   margin-left: 34px;
+}
+.content-vehicle{
+   max-width: 1400px;
+   margin-top: 125px;
+
+}
+.sub-title{
+   font-size: 15px;
+   font-weight: 400;
+   color: rgb(222, 93, 10);
+   letter-spacing: 2.3px;
+   
+   margin-left: 0px;
+
+}
+.title{
+   font-size: 36px;
+   line-height: 1.4;
+   font-weight: 600;
+   white-space: nowrap;/*  not get other line with long p */
+}
+.title-para{
+   text-align: center;
+   max-width: 750px;
+   margin: auto;
+   font-size: 14px;
+   color: black;
+   line-height: 1.6;
+    
+
+}
+.under-top {
+   display: flex;
+   justify-content: center;
+   margin-top: 16px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+
+
+}
+.under-top button{
+   display: flex;
+   margin-left: 10px;
+   background-color: white;
+   border-radius: 8px;
+   width: 150px;
+   height: 36px;
+   color: rgb(255, 144, 75);
+   font-weight: 700;
+   font-size: 15px;
+   align-self: center;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   padding-right: 20px;
+   padding-left: 20px;
+
+   
+}
+.under-top button img{
+   
+   width: 26px;
+  
+   
+   
+}
+.under-top p{
+   font-size: 24px;
+   color: #404040;
+   
+  
+}
+.image1>img,.image2>img,.image5>img{
+   
+   object-fit: cover;
+   border-radius: 1px;
+   padding: 12px;
+   height: 500px;  
+   width: auto;
+}
+.image2>img{
+   margin-left: 100px;
+}
+.image3>img{
+   margin-right: 100px;
+}
+.image3>img{
+   object-fit: cover;
+   border-radius: 1px;
+   padding: 12px;
+   height: auto;  
+   width: 460px;
+
+}
+.image4>img{
+   object-fit: cover;
+   border-radius: 1px;
+   padding: 12px;
+   height: auto;  
+   width: 650px;
+   margin-left: 130px;
+
+}
+.image6>img{
+   object-fit: cover;
+   border-radius: 1px;
+   padding: 12px;
+   width: auto; 
+
+}
+
+.para-1,.para-2,.para-3,.para-4{
+   display: flex;
+  width: 100%;
+  flex: auto;
+  flex-wrap: wrap;
+}
+.p1,.p2,.p3,.p4,.p5,.p6{
+   padding: 20px;
+   
+}
+.p6{
+   width: 572px;
+}
+.para-5,.para-6{
+   display: flex;
+   width: 100%;
+   flex: auto;
+   padding-top: 12px;
+
+}
+.p1 h1,.p2 h1,.p3 h1,.p4 h1,.p5 h1,.p6 h1{
+   padding-bottom: 16px;
+}
+.p1 p,.p2 p,.p3 p,.p4 p,.p5 p,.p6 p{
+   padding-bottom: 8px;
+}
+.p1 h1, .p2 h1,.p3 h1,.p4 h1 ,.p5, h1,.p6 h1{
+   font-weight: 600;
+}
+
+.p1 button,.p2 button,.p4 button,.p5 button,.p6 button{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(227, 106, 30);
+  border: none;
+  color: white;
+  margin-top: 14px;
+}
+.p3 button{
+   padding-left: 16px;
+   padding-right: 16px;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: rgb(227, 106, 30);
+   border: none;
+   
+   color: white;
+   margin-top: 14px;
+}
