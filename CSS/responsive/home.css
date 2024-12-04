@@ -192,11 +192,6 @@
    }
 }
 @media  (min-width:1550px){
-   .nav-container{
-      /* max-width: 1120px; */
-      /* width: 100%; */
-      width: 83.53%;
-   }
    .booking-trip {
       width: 80.16vw;
       max-width: 100%;
