@@ -77,10 +77,11 @@
    .category {
       grid-template-columns: 90%;
       justify-content: center;
-      
+        
     }
     .right-footer{
       margin-top: 250px;
+      
       justify-content: end;
     }
  }

@@ -30,14 +30,31 @@
    grid-template-columns: auto auto;
    }
 }
-@media (min-width:1550){
+@media  (min-width:1550px){
    .nav-container{
       /* max-width: 1120px; */
       /* width: 100%; */
-      width: 80.73%;
+      width: 83.53vw;
    }
    .foot{
       /* max-width: 1120px; */
-      width: 80.73%;
+      
+      width:80.23vw ;
+
+   }
+   .foot-container{
+      max-width: 80.23vw;
+      width:100% ;
+      display: grid;
+      
+   }
+   .left-footer{
+      padding: 2px;
+   }
+   .right-footer{
+     padding-top: 12px;
+     padding-bottom:52px ;
+     padding-left: 35px;
+      
    }
 }
