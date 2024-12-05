@@ -5,7 +5,7 @@
     font-family: Open Sans, sans-serif, Noto Sans Khmer;
  }
 .main-contenter{
-   max-width: 1130px;
+   max-width: 1107px;
    margin: auto;
    padding: 30px;
 
@@ -27,7 +27,7 @@
     margin: auto;
  }
  .image img{
-    width: 30vw;
+    width: 32.7vw;
     margin-left: 20px
  }
  .phrase p{
@@ -42,7 +42,7 @@
     
  }
 .phrase{
-   max-width: 500px;
+   max-width: 912px;
   
 }
  .phrase p{
@@ -55,7 +55,6 @@
     color: #DE5D0A;
     font-size: 1em;
     font-weight: 400;
-    
     text-decoration: underline;
     
  }
@@ -88,10 +87,19 @@
     margin-left: 20px;
     max-width: 550px;
  }
+ @media (min-width:1550px){
+   .nav-container{
+      max-width:  80.20vw;  
+   }
+   .main-contenter{
+      width: 85.10vw;
+      max-width: 100%;
+   }
+ }
  
  @media (max-width:960px){
    .main-contenter{
-      display: block;
+      display: block; 
       padding: 20px;
    }
    

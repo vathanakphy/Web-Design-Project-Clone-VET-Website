@@ -46,6 +46,14 @@
    cursor: pointer;
 }
 
+@media (min-width:1550px) {
+   .nav-container{
+      max-width:  80.20vw;
+   }
+   
+  
+
+}
 @media (max-width:960px){
    .main-contenter{
       max-width: 960px;
