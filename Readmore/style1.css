@@ -133,6 +133,19 @@
 .phrase4 {
    padding: 10px;
 } */
+ @media (min-width:1500px) {
+   .nav-container{
+      /* max-width: 1120px; */
+      /* width: 100%; */
+      width: 80.53vw;
+   }
+   .content{
+      width: 80.20vw;
+      
+     
+   }
+   
+ }
 
 @media (max-width: 1000px) {
   .right-content{
