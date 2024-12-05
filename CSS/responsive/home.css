@@ -191,3 +191,56 @@
       margin-left: 4px;
    }
 }
+@media  (min-width:1550px){
+   .booking-trip {
+      width: 80.16vw;
+      max-width: 100%;
+   }
+   .select-form > input{
+      width: 19.00vw;
+   }
+   .date-form>input{
+      width: 12.44vw;
+   }
+   .input-infor>button[type="submit"]{
+      width: 12.44vw;
+   }
+   .secend-header{
+      width: 83.30vw;
+      max-width: 100%;
+      
+   }
+   .travel-infor>.box {
+      width: 19.3vw;
+      
+   }
+   .sercive-container{
+      width: 80.16vw;
+      max-width: 100%;
+   }
+   .service {
+      width: 27.12vw;
+      height: 138px;
+   }
+   .trending-place{
+      width: 80.16vw;
+      max-width: 100%;
+   }
+   .place-pic{
+      width: 18.74vw;
+      
+   }
+   .route-detial{
+      width: 80.16vw;
+      max-width: 100%;
+      padding: 0;
+   }
+   .companies{
+      width: 81.41vw;
+      max-width: 100%;
+   }
+   .sub-companies>a{
+      max-width: 20.00vw;
+   }
+   
+}
