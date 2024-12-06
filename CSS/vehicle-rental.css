@@ -1,21 +1,32 @@
 /* the see more see less work */
-#moreTxt{
-    display:none;
+.title-para{
+   display: inline;
 }
- input[type="checkbox"]:checked+label+#moreTxt{
-    display:inline;
+#moreTxt {
+   display: none;
  }
- label::after{
-    content: "See more";
-    color: blue;
-    cursor: pointer;
+
+ /* Toggle Label Styling */
+ label {
+   color: blue;
+   cursor: pointer;
  }
- input[type="checkbox"]:checked+label::after{
-   content: "See less";
-   
+
+ input[type="checkbox"]:checked ~ #moreTxt {
+   display: inline;
  }
- input[type="checkbox"]{
-    display: none;
+
+ input[type="checkbox"]:checked ~ label::after {
+   content: " See less";
+ }
+
+ label::after {
+   content: " See more";
+ }
+
+ /* Hide the checkbox */
+ input[type="checkbox"] {
+   display: none;
  }
 /* end see more see less */
 /* the tilte */

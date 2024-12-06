@@ -3,14 +3,12 @@
 fieldset{
    border: none;
 }
-#name{
-   color: aqua;
-}
+
 #firstN, #Num {
-   width: 90%; 
+   width: 103%; 
    height: 40px; 
    border-radius: 4px; 
-   border: 1px solid gray;
+   border: 1px solid rgba(164, 164, 164, 0.589);
    padding: 8px; 
    box-sizing: border-box; 
 }
@@ -52,63 +50,94 @@ fieldset{
 .plus{
    margin-top: 2%;
 }
+.new{
+   margin-left: 4.5%;
+
+}
 #One,#Round,#Trip{
    margin-top: 1.5%;
    margin-left: 1.75%;
+   accent-color:  rgb(222, 93, 10);
+   
    
    
 
 }
+.choice input{
 
+   height: 15px;
+   width: 15px;
+}
+.Journey{
+   margin-left: 2%;
+}
+.choice{
+   padding-bottom: 24px;
+   padding-top: 12px;
+   
+}
 #text{
    color: grey;
 }
 #One{
-   margin-left: 6%;
+   margin-left: 9%;
 }
 #Amoung-car{
    margin-top: 12px;
-   margin-left: 6.3%;
-   padding-right: 33.3%;
-   padding-top: 0.5%;
-   padding-bottom: 0.5%;
+   border: 1px solid rgba(164, 164, 164, 0.589);
+   
+   
    border-radius: 4px;
-   border: 1px solid grey;
+   width: 555px;
+   height: 40px;
+   margin-left: 10.52%;
+   
 
 }
-
+.car{
+   padding: 12px;
+}
 .select{
    display: flex;
    flex-direction: row;
    padding: 12px;
+   padding-bottom: 24px;
 }
 
 #Destination,#arrival{
-   width: 22.5%;
+   width: 270px;
+   height: 40px;
    
    padding: 0.75%;
    border-radius: 4px;
-   border:1px solid gray;
+   border: 1px solid rgba(164, 164, 164, 0.589);
+
    margin-left: 1.75%;
    
 
 }
 #Destination{
-   margin-left: 5.52%;
+   margin-left: 10.52%;
 }
 #date{
    margin-top: 12px;
+   width: 555px;
+   height: 40px;
    margin-left: 6.5%;
    padding-right: 18%;
-   padding-top: 0.5%;
-   padding-bottom: 0.5%;
+
    padding-left: 18%;
    border-radius: 4px;
-   border: 1px solid grey;
+   border: 1px solid rgba(164, 164, 164, 0.589);
+
+   margin-left: 11.52%;
+}
+.Date{
+   padding-bottom: 24px;
 }
 #Bio{
    margin-top: 12px;
-   margin-left: 6.5%;
+   margin-left: 11.52%;
    padding-right: 15%;
    padding-top: 0.5%;
    padding-bottom: 0.5%;
@@ -117,19 +146,51 @@ fieldset{
    
    border-radius: 4px;
    border: 1px solid grey;
+   width: 555px;
+   height: 80px;
    
 
+}
+.Bio{
+   padding-bottom: 10%;
 }
 .topic{
    display: flex;
    flex-direction: row;
 }
 .right{
-   flex-grow: 1000;
+   flex-grow: 2;
 }
 .left{
    flex-grow: 2;
+   display: flex;
+   flex-direction: column;
+   margin-top: 2%;
+   
 }
+.Vehicle{
+   font-size: 13px;
+   color: grey;
+   padding: 8px;
+}
+.prem{
+   font-weight: 600;
+   color: black;
+}
+.Save{
+   border: none;
+   background-color:  rgb(226, 104, 29) ;
+   width: 357px;
+   height: 50px;
+   padding-left: 152px;
+   font-size: 20px;
+   font-weight: 500;
+   padding-top: 10px;
+   color: white;
+   margin-top: 40px;
+   border-radius: 8px;
+}
+
 .nav-container ul li:nth-child(1) a{
    border: none;
 }
