@@ -3,32 +3,32 @@
       max-width: 81.83vw;
       padding-left: 6px;
    }
-}
-.right-content{
-   width: 100%;
-   max-width: 69.8vw;
-   margin-left: 20px;
-}
-.para{
-   max-width: 81.83vw;
-   padding-left: 6px;
-   font-size: 15px;
-}
-.decrition{
-   margin-left: 340px;
-   line-height: 22px;
-   font-size: 16px;
-   padding-left: 8px;
-}
-.bottom-para{
-   max-width: 81.83vw;
-   width: 100%;
-   font-size: 15px;
-   background-color: white;
-   padding-left: 8px;
-   margin: auto;
-}
-.phrase3,.phrase4{
-   max-width: 81.83vw;
-   padding-left: 8px;
+   .right-content{
+      width: 100%;
+      max-width: 69.8vw;
+      margin-left: 20px;
+   }
+   .para{
+      max-width: 81.83vw;
+      padding-left: 6px;
+      font-size: 15px;
+   }
+   .decrition{
+      margin-left: 340px;
+      line-height: 22px;
+      font-size: 16px;
+      padding-left: 8px;
+   }
+   .bottom-para{
+      max-width: 81.83vw;
+      width: 100%;
+      font-size: 15px;
+      background-color: white;
+      padding-left: 8px;
+      margin: auto;
+   }
+   .phrase3,.phrase4{
+      max-width: 81.83vw;
+      padding-left: 8px;
+   }
 }
