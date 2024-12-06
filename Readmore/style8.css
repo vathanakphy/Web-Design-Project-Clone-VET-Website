@@ -21,7 +21,7 @@
 .col {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 24px;
+   gap: 25px;
 }
 
 .content {
@@ -52,6 +52,20 @@
    font-size: 1.3em;
    margin-top: 15px;
    padding: 5px;
+}
+@media (min-width:1500px){
+   .nav-container{
+      max-width:  80.20vw;
+      
+   }
+   .main-con{
+      max-width:  83vw;
+   }
+   .content{
+     width: 39.5vw;
+     max-width: 100%;
+    
+   }
 }
 @media (max-width:1090px){
    .content{

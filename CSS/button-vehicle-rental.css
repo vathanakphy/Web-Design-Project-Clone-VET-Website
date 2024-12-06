@@ -1,36 +1,134 @@
-/* the see more see less work */
-#moreTxt{
-    display:none;
+
+
+fieldset{
+   border: none;
 }
- input[type="checkbox"]:checked+label+#moreTxt{
-    display:inline;
- }
- label::after{
-    content: "See more";
-    color: blue;
-    cursor: pointer;
- }
- input[type="checkbox"]:checked+label::after{
-   content: "See less";
-   
- }
- input[type="checkbox"]{
-    display: none;
- }
-/* end see more see less */
-/* the tilte */
-.top{
-    
-    text-align: center;
-    margin-top:1vh;
-    margin-right: 10vh;
-    
-   
-    
+#name{
+   color: aqua;
 }
-.nav-container ul li:nth-child(3) a{
-   border-bottom: 3px solid #DE5D0A;
-   padding-bottom: 12px;
+#firstN, #Num {
+   width: 90%; 
+   height: 40px; 
+   border-radius: 4px; 
+   border: 1px solid gray;
+   padding: 8px; 
+   box-sizing: border-box; 
+}
+
+.info {
+   padding: 12px; 
+   
+   margin-left: 0%;
+   margin-top: -1.5%;
+}
+.info:nth-child(1){
+   margin-left: 4.5%;
+   margin-top: -1.5%;
+}
+
+.name-num {
+   display: flex; 
+   flex-direction: row;  
+   
+   align-items: flex-start; 
+   width: 100%; 
+       
+}
+
+.booking{
+   font-weight: 600;
+   font-size: 126%;
+   margin-bottom: 12px;
+   margin-top: -1.25%;
+   padding-left: 1%;
+}
+.type{
+   font-weight: 600;
+   padding-left: 12px;
+   margin-left: 2.75%;
+   
+   padding-top: 12px;
+}
+.plus{
+   margin-top: 2%;
+}
+#One,#Round,#Trip{
+   margin-top: 1.5%;
+   margin-left: 1.75%;
+   
+   
+
+}
+
+#text{
+   color: grey;
+}
+#One{
+   margin-left: 6%;
+}
+#Amoung-car{
+   margin-top: 12px;
+   margin-left: 6.3%;
+   padding-right: 33.3%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   border-radius: 4px;
+   border: 1px solid grey;
+
+}
+
+.select{
+   display: flex;
+   flex-direction: row;
+   padding: 12px;
+}
+
+#Destination,#arrival{
+   width: 22.5%;
+   
+   padding: 0.75%;
+   border-radius: 4px;
+   border:1px solid gray;
+   margin-left: 1.75%;
+   
+
+}
+#Destination{
+   margin-left: 5.52%;
+}
+#date{
+   margin-top: 12px;
+   margin-left: 6.5%;
+   padding-right: 18%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   padding-left: 18%;
+   border-radius: 4px;
+   border: 1px solid grey;
+}
+#Bio{
+   margin-top: 12px;
+   margin-left: 6.5%;
+   padding-right: 15%;
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+   color: gray;
+   margin-bottom: 3%;
+   
+   border-radius: 4px;
+   border: 1px solid grey;
+   
+
+}
+.topic{
+   display: flex;
+   flex-direction: row;
+}
+.right{
+   flex-grow: 1000;
+}
+.left{
+   flex-grow: 2;
 }
 .nav-container ul li:nth-child(1) a{
    border: none;

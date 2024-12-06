@@ -145,7 +145,11 @@
    object-fit: cover;
    border-radius: 1px;
    padding: 12px;
-   width: auto; 
+   width: auto;
+   height: 350px ;
+   margin-bottom: 20%;
+   margin-top: 50px;
+   margin-left: 10%;
 
 }
 
@@ -159,6 +163,10 @@
    padding: 20px;
    
 }
+.p5 p{
+   font-weight: 400;
+   
+}
 .p6{
    width: 572px;
 }
@@ -169,6 +177,7 @@
    padding-top: 12px;
 
 }
+
 .p1 h1,.p2 h1,.p3 h1,.p4 h1,.p5 h1,.p6 h1{
    padding-bottom: 16px;
 }

@@ -18,6 +18,14 @@
 .transport>ul>li>a{
    display: block;
 }
+@media (min-width:1500px){
+   .nav-container{
+      max-width:  80.20vw;
+   }
+   .transport{
+      max-width:  80.00vw;
+   }
+}
 @media (max-width:960px) {
    img{
       width: 100%
