@@ -48,7 +48,9 @@
 
 @media (min-width:1550px) {
    .nav-container{
-      max-width:  80.20vw;
+      max-width:  1550px;
+      width: 100%;
+      
    }
    
   
