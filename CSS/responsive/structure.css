@@ -32,30 +32,22 @@
    }
 }
 @media  (min-width:1550px){
+   .navigation-bar { padding: 0 3px; }
    .nav-container{
-      /* max-width: 1120px; */
-      /* width: 100%; */
-      width: 80.23vw;
+      max-width: 1540px;
    }
-   .foot{
-      /* max-width: 1120px; */
-      
-      width:80.23vw ;
-
-   }
+   .footer-bar { padding: 0 3px; }
+   .foot{ max-width: 1540px; }
    .foot-container{
-      max-width: 80.23vw;
-      width:100% ;
+      max-width: 1540px;
       display: grid;
       
    }
    .left-footer{
-      padding: 2px;
+      padding: 12px 0 0;
    }
    .right-footer{
-      padding-top: 12px;
-      padding-bottom:52px ;
-      padding-left: 35px;
+      padding: 12px;
       
    }
 }

@@ -16,6 +16,7 @@
 main{
   display: flex;
   padding: 100px 30px 50px;
+  overflow-x: hidden;
 }
 
 .gallers {
