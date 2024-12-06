@@ -116,7 +116,6 @@
   position: relative;
   max-width: 360px;
   height: 320px;
-  overflow: hidden;
 }
 
 .card-no-p{
@@ -145,7 +144,9 @@
 
 .card p {
   font-size: 14px;
-  color: rgb(99, 98, 98);
+  color: rgb(66, 66, 69);
+  overflow: hidden;
+  height: 36px;
 }
 .card h2{
   font-size: 20px;
