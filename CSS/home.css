@@ -156,21 +156,3 @@ address{
 .trip-container{
    display: none;
 }
-@media  (min-width:1550px){
-   .nav-container{
-      /* max-width: 1120px; */
-      /* width: 100%; */
-      width: 83.53vw;
-   }
-   .foot{
-      /* max-width: 1120px; */
-      
-      width:80.23vw ;
-      width:100% ;
-
-   }
-   .foot-container{
-      max-width: 80.23vw;
-      width:100% ;
-   }
-}

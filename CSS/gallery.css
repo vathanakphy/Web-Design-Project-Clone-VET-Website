@@ -76,3 +76,10 @@ main{
     padding: 12px;
   }
 }
+@media (min-width: 1550px) {
+  main {
+    padding-left: 3px;
+    padding-right: 0;
+  }
+  .gallers { max-width: 1540px; }
+}
