@@ -11,7 +11,7 @@
    margin-bottom: 40px;
  }
 .main-contenter{
-   max-width: 1900px;
+   width: 100%;
    margin-top: 30px;
    
   
@@ -48,7 +48,18 @@
 
 @media (min-width:1550px) {
    .nav-container{
-      max-width:  80.20vw;
+      max-width:  1550px;
+      width: 100%;
+      
+   }
+   .main-contenter{
+      max-width: 1550px;
+      width: 100%;
+   }
+   .main-contenter h1{
+      max-width: 1550px;
+      width: 100%;
+      margin-left: 100px   ;
    }
    
   

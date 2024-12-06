@@ -7,13 +7,14 @@
  
  
   .main-content{
-   width: 80vw;
+   max-width:  1130px;
+   width: 100%;
    margin: auto;
   }
  
 #pp{
     
-        margin-top: 150px;
+        margin-top: 52px;
         font-size: 0.9em;
 }
 .main h3{
@@ -49,16 +50,24 @@
  .pic img{
    
     margin-top: 25px;
-    width: 25vw;  
+    width: 26.10vw;  
     background-color: #DE5D0A;
 
  }
  .phrases{
     font-size: 0.8em;
     line-height: 2;
-   
     margin-left: 30px;
+    margin-top: 20px;
  }
+ @media (min-width:1550px){
+   .nav-container{
+      max-width:  80.20vw;  
+   }
+   .main-content{
+      max-width: 80.30vw;
+   }
+}
 
  
  @media (max-width: 1024px) {
