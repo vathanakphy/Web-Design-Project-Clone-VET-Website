@@ -107,17 +107,17 @@
   
 }
 
- @media (max-width:1250px){
+ @media (max-width:1550px){
    .content1{
      padding: 20px;
       display: flex;
-      margin: auto;
+      
       
    }
    
    .contenter{
       
-      max-width: 1250px;
+      max-width: 1120px;
       width: 100%;
    }
    
