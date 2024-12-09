@@ -305,12 +305,11 @@ address{
 
 
  @media (min-width:600px) and (max-width: 960px){
-  .main{
-   max-width: 1200px;
-  }
+  
    .content{
       max-width: 967px;
       display: block;
+     
 
    }
    .card{
