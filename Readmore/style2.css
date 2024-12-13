@@ -5,8 +5,8 @@
     font-family: Open Sans, sans-serif, Noto Sans Khmer;
  }
  
- .main {
-    max-width: 2400px;
+ .main-contenter {
+    
     width: 100%;
     margin: auto;
     background-image: url(https://vireakbuntham.com/img/revamp-service-bg-updated.ba6600fc.png);
@@ -15,14 +15,14 @@
     color: white;
 
 }
-.main h1 {
+.main-contenter h1 {
     text-align: center;
     margin-top:100px;
     padding: 10px;
     font-size: 2.5em;
     color: white;
 }
-.main p {
+.main-contenter p {
     text-align: center;
     font-size: 1em;
     margin: 20px 30px;
@@ -32,6 +32,7 @@
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(4, 367px);
+    grid-template-rows: 267px;
     gap: 20px;
     margin:auto;
     margin-bottom: 20px;
@@ -63,6 +64,11 @@
 .col1 li {
     font-size: 0.9em;
     line-height: 1.5;
+}
+@media (max-width:1550px){
+  .category {
+    grid-template-columns: repeat(4, 262px);
+  }
 }
  
  @media (max-width:1280px){

@@ -69,26 +69,29 @@
                      <fieldset>
                         <div class="name-num">
                            <div class="info">
-                               <label for="firstN" id="name">Full Name*</label>
+                               <label for="firstN" id="name">Full Name <span style="color: red;">*</span></label>
                                <input type="text" id="firstN" name="firstN">
                            </div>
                            <div class="info">
-                               <label for="Num">Phone Number*</label>
+                               <label for="Num">Phone Number<span style="color: red;">*</span></label>
                                <input type="text" id="Num" name="Num">
                            </div>
                        </div>
                        
-                        <div>
-                           <div class="type plus">Journey Type*</div>
-                           <input type="radio" id="One" name="One" value="One way">
-                           <label for="One" id="text">One way</label>
-                     <input type="radio" id="Round" name="Round" value="Round Trip">
-                     <label for="Round" id="text">Round Trip</label>
-                     <input type="radio" id="Trip" name="Trip" value="Trip">
-                     <label for="Trip" id="text">Trip</label>
+                        <div class="Journey">
+                           <div class="type plus">Journey Type<span style="color: red;">*</span></div>
+                           <div class="choice">
+
+                              <input type="radio" id="One" name="One" value="One way">
+                              <label for="One" id="text">One way</label>
+                              <input type="radio" id="Round" name="One" value="Round Trip">
+                              <label for="Round" id="text">Round Trip</label>
+                              <input type="radio" id="Trip" name="One" value="Trip">
+                              <label for="Trip" id="text">Trip</label>
+                           </div>
                   </div>
                   <div>
-                     <div class="type">Destination</div>
+                     <div class="type  new">Destination<span style="color: red;">*</span></div>
                      <div class="select">
                         
                         <select name="departor" id="Destination" >
@@ -155,17 +158,21 @@
                      </select>
                   </div>
                </div>
-               <div>
+               <div class="Date">
                   
-                  <div class="type">Departor Date</div>
-                     <input type="date" id="date" name="date">
+                  <div class="type new ">Departor Date<span style="color: red;">*</span></div>
+                   
+                        <input type="date" id="date" name="date">
                   </div>
-                  <div>
-                     <div class="type">Amoung Of Car</div>
-                     <input type="text" id="Amoung-car" name="Among-of-car">
+                  <div class="Date">
+                     <div class="type new">Amoung Of Car<span style="color: red;">*</span></div>
+                     <div class="car">
+
+                        <input type="text" id="Amoung-car" name="Among-of-car">
+                     </div>
                   </div>
-                  <div>
-                     <div class="type">Remark</div>
+                  <div class="Bio">
+                     <div class="type new ">Remark</div>
                      <textarea rows="4" cols="50" name="comment" form="usrform" id="Bio">   Remark</textarea>
                   </div>
                   
@@ -173,9 +180,13 @@
             </form>
          </div>
          <div class="left">
-            <div>left</div>
-            <div>
-               <img src="../image/image-left-button-vehicle.png" alt="vehicle">
+            <div class="Vehicle">Vehicle Type: <span class="prem">Premium Hyundai Solati H350</span></div>
+            
+            <div >
+               <img src="../image/image-left-button-vehicle.png" alt="vehicle" width="357px" height="360px"/>
+            </div>
+            <div class="Save">
+               <a href="/HTML/vehicle-rental.html">Save</a>
             </div>
             
          </div>

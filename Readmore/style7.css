@@ -87,9 +87,9 @@
     margin-left: 20px;
     max-width: 550px;
  }
- @media (min-width:1550px){
+ @media (max-width:1550px){
    .nav-container{
-      max-width:  80.20vw;  
+      max-width:  1550px;  
    }
    .main-contenter{
       width: 85.10vw;
@@ -108,6 +108,9 @@
    .main-contenter{
       display: block;
       padding: 20px;
+   }
+   .main-contenter h1{
+    font-size: 1.5rem;
    }
    .content{
       display: block;

@@ -66,22 +66,22 @@
    background: rgb(254, 122, 101);
    border-radius: 20px;
    border: 1px solid white;
-   height: 300px;
-   width: 100%;
-   padding: 13px 20px 20px 20px;
-}
-
-.card1 p {
+   
+   
+  
+  
+ }
+ 
+ .card1 p{
    color: white;
    font-size: 12.8px;
    text-align: start;
    line-height: 2;
-   max-width: 462px;
-}
-
-.card2 {
-   background: rgb(86, 215, 255);
-   border-radius: 20px;
+   
+ }
+ .card2{
+  background-color:rgb(0, 174, 255);
+  border-radius: 20px;
    border: 1px solid white;
    height: 300px;
    width: 100%;
@@ -128,39 +128,41 @@
    font-size: 14px;
    text-align: start;
    line-height: 2;
-   max-width: 462px;
-
+ }
+ 
+  
+ @media (min-width:961px) and (max-width:1260px) {
+  .content{
+   display: flex;
+   justify-content: center;
+   max-width: 1260px;
+  } 
+  .card{
+   display: grid;
+   grid-template-columns: 1fr;
+  }
+  
+  .card p{
+   font-size: 0.8rem;
+  }
+  
+   
 }
-@media (min-width:961px) and (max-width:1260px) {
-   .content {
-      justify-content: center;
-      
-   }
-   .core{
-      max-width: 542px;
-      width: 100%;
-   }
-   .card > div{
-      max-width: 502px;
-      width: 100%;
-   }
-   .card {
-      display: grid;
-      grid-template-columns: 1fr;
-   }
+ 
+ 
+ @media (min-width:600px) and (max-width: 960px){
+  .main{
+   max-width: 1200px;
+  }
+   .content{
+      max-width: 967px;
+      display: block;
 
-   .card p {
-      font-size: 0.8rem;
    }
-
-
-}
-
-
-@media (min-width:600px) and (max-width: 960px) {
-   .card {
-      grid-template-columns: repeat(2, auto);
-      justify-content: center;
+   .card{
+   
+    grid-template-columns: repeat(2,40vw);
+    justify-content: center;
    }
 
 
@@ -181,13 +183,24 @@
       display: block;
 
    }
-   .card {
-      grid-template-columns: 1fr;
+   .up >h1{
+      margin-left: 20px;
+   }
+   .content p{
+      margin-left: 20px;
+   }
+   .card{
+      grid-template-columns: 90vw;
+      max-width:  100%;
       justify-content: center;
 
 
    }
-   .core {
+  
+  
+      
+   
+   .core{
       font-size: 14px;
    }
 
