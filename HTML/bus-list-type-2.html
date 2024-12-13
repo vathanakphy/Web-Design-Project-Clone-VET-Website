@@ -19,6 +19,7 @@
          rel="stylesheet">
       <title>Vireak Buntham Express</title>
       <link rel="stylesheet" href="../CSS/bus-list.css">
+      <link rel="stylesheet" href="../CSS/buslist-2.css">
       <link rel="stylesheet" href="../CSS/responsive/structure.css">
 </head>
 
@@ -57,19 +58,68 @@
       </nav>
       <div class="main">
          <div class="container">
-            <div class="trip-path">
-               <span class="form">From</span>
-               <span class="start-place">Phnom Penh</span>
-               <div class="arrow">
-                  <img src="../image/arrow.svg" alt="arrow">
+            <div class="booking-trip">
+               <div class="choose-region">
+                  <div class="option">
+                     <input type="radio" name="region" id="cambodian">
+                     <label for="cambodian">Cambodian</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" name="region" id="non-cambodia">
+                     <label for="non-cambodian">Non-Cambodian</label>
+                  </div>
                </div>
-               <span class="to-end">To</span>
-               <span class="end-place">Siem Reap</span>
-               <div class="null"></div>
-               <span class="departure">Departure</span>
-               <span class="date-start">2024-11-22</span>
-               <div class="button">
-                  <button type="submit">Modify</button>
+               <div class="input-infor">
+                  <div class="select-form">
+                     <input list="place" id="departing" name="place" placeholder="Departing Form">
+                     <div class="place-holder forward">
+                        <img src="../image/forward.svg" alt="forward">
+                        <!-- <span>Departing Form</span> -->
+                     </div>
+                     <datalist id="place">
+                        <option value="Phnom Penh">
+                        <option value="Siem Reap">
+                        <option value="Sihanouk Ville">
+                        <option value="Battambang">
+                        <option value="Bangkok">
+                        <option value="Ho Chi Minh">
+                        <option value="Kratie">
+                        <option value="Snoul">
+                     </datalist>
+                  </div>
+                  <div class="select-form">
+                     <input list="place" id="go-to" name="place" placeholder="Going To">
+                     <div class="place-holder going-to">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <!-- <span>Going To</span> -->
+                     </div>
+                     <datalist id="place">
+                        <option value="Phnom Penh">
+                        <option value="Siem Reap">
+                        <option value="Sihanouk Ville">
+                        <option value="Battambang">
+                        <option value="Bangkok">
+                        <option value="Ho Chi Minh">
+                        <option value="Kratie">
+                        <option value="Snoul">
+                     </datalist>
+                  </div>
+                  <div class="date-form ">
+                     <input type="text" id="trvel-date" placeholder="2024- 11 -29" onfocus="this.type='date'" onblur="this.type='text'" value="">
+                     <div class="place-holder start-place" id="start-place">
+                        <img src="../image/date-input.svg" alt="date">
+                        <!-- <span>2024- 11 -29</span>         -->
+                     </div>
+                  </div>
+                  <div class="date-form">
+                     <input type="text" id="return-date" placeholder="" onfocus="this.type='date'" onblur="this.type='text'" value="">
+                     <!-- <input type="date" id="return-date"  onfocus="this.type='date'" onblur="this.type='text'" value=""> -->
+                     <div class="place-holder end-place" id="end-place">
+                        <img src="../image/date-input.svg" alt="date">
+                        <span>Return Date</span>
+                     </div>
+                  </div>
+                  <button type="submit" class="find-btn">Find Now</button>
                </div>
             </div>
             <div class="trip-container">
