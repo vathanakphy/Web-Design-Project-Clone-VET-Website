@@ -1,0 +1,113 @@
+
+.booking-trip {
+   background-color: rgba(255, 255, 255, 0.85);
+   max-width: 1120px;
+   width: 100%;
+   z-index: 10;
+   display: grid;
+   grid-template-rows: repeat(2, auto);
+   height: 105px;
+   border-radius: 0.6rem;
+   padding: 15px 25px 24px 23px;
+}
+
+.choose-region {
+   display: flex;
+   flex-direction: row;
+   column-gap: 16px;
+}
+
+.option {
+   display: flex;
+   flex-direction: row;
+   column-gap: 8px;
+}
+.input-infor {
+   /* display: flex;
+   flex-direction: row; */
+   display: grid;
+   grid-template-columns: repeat(5,auto);
+   column-gap: 12px;
+   margin-top: 14px;
+}
+.input-infor>input {
+   border: 0.8px solid rgb(198, 198, 198);
+}
+
+input[type="radio"] {
+   transform: scale(1.5);
+   color: rgb(49, 39, 131);
+   caret-color: rgb(49, 39, 131);
+   opacity: 0.5;
+   border-color: rgb(49, 39, 131);
+}
+input[type="radio"]:checked {
+   color: rgb(49, 39, 131);
+   caret-color: rgb(49, 39, 131);
+   opacity: 1;
+}
+label[for="cambodian"],
+label[for="non-cambodian"] {
+   color: rgba(0, 0, 0, .6);
+   font-size: 14px;
+   font-weight: bold;
+   text-align: center;
+}
+.select-form>input{
+   border: 0.8px solid rgb(198, 198, 198);
+   width: 260px;
+   height: 40px;
+   border-radius: 4px;
+}
+.place-holder>img{
+   margin-right: 8px;
+}
+.place-holder>i{
+   color:#C4C3C3 ;
+   font-size: 18px; 
+   padding-left:4px;
+   margin-right: 8px;
+   padding-bottom: 3px;
+}
+.place-holder{
+   position: absolute;
+   display: flex;
+   flex-direction: row;
+   color: #757575;
+   /* bottom: 26px; */
+   padding-left: 11px;
+}
+/* #start-place{
+   left: 40%px; 
+} */
+.date-form>input{
+   border: 0.8px solid rgb(198, 198, 198);
+   width: 169px;
+   height: 40px;
+   border-radius: 4px;
+}
+input::placeholder{
+   padding-left: 40px;
+   color: #757575;   
+   font-weight: 600;
+}
+input[type="date"]::placeholder{
+   color: black;
+}
+
+
+.input-infor>button[type="submit"] {
+   width: 169px;
+   height: 40px;
+   border: none;
+   background-color: #DE5D0A;
+   color: white;
+   font-size: 14px;
+   font-weight: 400;
+   border-radius: 4px;
+}
+.input-infor>button[type="submit"]:hover{
+   cursor: pointer;
+   transition: 0.2s;
+   background-color: #CE5609;
+}

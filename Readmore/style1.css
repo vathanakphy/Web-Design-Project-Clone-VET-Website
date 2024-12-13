@@ -88,14 +88,12 @@
 
 .decrition p {
    padding: 5px;
-
 }
-
 .para {
    margin-top: 37px;
    text-align: start;
    font-size: 1.2rem;
-   max-width: 1120px;
+   /* max-width: 1120px; */
    /* margin-left: 160px; */
    grid-column: span 2;
    font-size: 15px;
@@ -109,45 +107,23 @@
    row-gap: 16px;
 }
 .bottom-para{
-  /* background-color: #E7E9ED; */
-  margin-top: 0px;
-  /* width: 100vw; */
-  max-width: 1120px;
-  justify-content: center;
-  padding: 16px 30px 38px 30px;
+   background-color: #E7E9ED;
+   margin-top: 0px;
+  /* max-width: 1120px; */
+   justify-content: center;
+  /* margin: auto; */
+   padding: 16px 0px 38px 0px;
 }
 .phrase3,.phrase4{
    max-width: 1120px;
 }
-/* 
-.phrase1 {
-   padding: 10px;
-}
-
-.phrase2 {
-   padding: 10px;   
-}
-
-.phrase3 {
-   padding: 10px;
-}
-
-.phrase4 {
-   padding: 10px;
-} */
- @media (min-width:1500px) {
-   .nav-container{
-      /* max-width: 1120px; */
-      /* width: 100%; */
-      width: 80.53vw;
-   }
+@media (min-width:1500px) {
    .content{
-      width: 80.20vw;
-      
-     
+      max-width: 1550px;
+      width: 100%; 
    }
    
- }
+}
 
 @media (max-width: 1000px) {
 .right-content{
