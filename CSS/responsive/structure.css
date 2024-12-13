@@ -34,27 +34,12 @@
 @media  (min-width:1550px){
    .navigation-bar { padding: 0 3px; }
    .nav-container{
-<<<<<<< HEAD
-      max-width: 1550px; 
-      /* width: 100%;
-      /* width: 80.23vw; */
-   }
-   .foot{
-      /* max-width: 1120px; */
-      max-width: 1550px; 
-=======
       max-width: 1540px;
->>>>>>> 4d48c2ad0c989d98996f8beaa42a5b323491278a
    }
    .footer-bar { padding: 0 3px; }
    .foot{ max-width: 1540px; }
    .foot-container{
-<<<<<<< HEAD
-      max-width: 1550px; 
-      width:100% ;
-=======
       max-width: 1540px;
->>>>>>> 4d48c2ad0c989d98996f8beaa42a5b323491278a
       display: grid;
       
    }
