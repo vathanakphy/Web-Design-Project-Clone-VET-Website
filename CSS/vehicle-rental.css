@@ -1,6 +1,13 @@
 /* the see more see less work */
+.para-title{
+   max-width: 726px;
+   width: 726px;
+   margin: auto;
+}
 .title-para{
    display: inline;
+   max-width: 726px;
+   width: 726px;
 }
 #moreTxt {
    display: none;
@@ -39,6 +46,12 @@
    
     
 }
+.All-car{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 24px;
+   width: 100%;
+}
 .nav-container ul li:nth-child(3) a{
    border-bottom: 3px solid #DE5D0A;
    padding-bottom: 12px;
@@ -48,11 +61,13 @@
 }
 .main{
    background-color: #FFFFFF;
-   padding: 0% 10% 0% 10%;
-   margin-left: 34px;
+   padding: 0 30px 0 30px;
+   display: flex;
 }
 .content-vehicle{
-   max-width: 1400px;
+   max-width: 1120px;
+   margin: auto;
+   width: 100%;
    margin-top: 125px;
 
 }
@@ -98,6 +113,7 @@
    width: 150px;
    height: 36px;
    color: rgb(255, 144, 75);
+   border: 0.8px solid rgb(198, 198, 198);
    font-weight: 700;
    font-size: 15px;
    align-self: center;
@@ -119,61 +135,61 @@
    font-size: 24px;
    color: #404040;
    
-  
 }
-.image1>img,.image2>img,.image5>img{
+.para{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   column-gap: 24px;
+   row-gap: 22px;
+ }
+ .All-car{
+   display: flex;
+   flex-direction: column;
+ }
+.image1>img,.image2>img,.image4>img,.image5>img,.image6>img{
    
    object-fit: cover;
    border-radius: 1px;
-   padding: 12px;
-   height: 500px;  
-   width: auto;
+   /* padding: 12px; */
+   max-width: 558px;
+   width: 100%;
+}
+.image1>img{
+   height: 482px;  
 }
 .image2>img{
-   margin-left: 100px;
+   margin-right: auto;
+   height: 424px;  
+
 }
 .image3>img{
    margin-right: 100px;
-}
-.image3>img{
-   object-fit: cover;
-   border-radius: 1px;
-   padding: 12px;
-   height: auto;  
-   width: 460px;
-
+   height: 453px; 
 }
 .image4>img{
    object-fit: cover;
    border-radius: 1px;
-   padding: 12px;
-   height: auto;  
-   width: 650px;
-   margin-left: 130px;
-
+   height: 453px; 
+}
+.image5>img{
+   height: 503px; 
 }
 .image6>img{
    object-fit: cover;
    border-radius: 1px;
-   padding: 12px;
+   padding: 40px 0px 40px 10px;
    width: auto;
-   height: 350px ;
-   margin-bottom: 20%;
-   margin-top: 50px;
-   margin-left: 10%;
+   height: 426px; 
+   margin-bottom: 90px;
 
 }
 
-.para-1,.para-2,.para-3,.para-4{
+/* .para-1,.para-2,.para-3,.para-4{
    display: flex;
   width: 100%;
   flex: auto;
   flex-wrap: wrap;
-}
-.p1,.p2,.p3,.p4,.p5,.p6{
-   padding: 20px;
-   
-}
+} */
 .p5 p{
    font-weight: 400;
    
@@ -190,10 +206,10 @@
 }
 
 .p1 h1,.p2 h1,.p3 h1,.p4 h1,.p5 h1,.p6 h1{
-   padding-bottom: 16px;
+   padding-bottom: 26px;
 }
 .p1 p,.p2 p,.p3 p,.p4 p,.p5 p,.p6 p{
-   padding-bottom: 8px;
+   padding-bottom: 7px;
 }
 .p1 h1, .p2 h1,.p3 h1,.p4 h1 ,.p5, h1,.p6 h1{
    font-weight: 600;

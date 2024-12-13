@@ -49,6 +49,7 @@ a{
    color: black;
    font-weight: 600;
    font-size: 14px;
+   border: none;
 }
 .nav-container ul li:nth-child(1) a{
    border-bottom: 3px solid #DE5D0A;
