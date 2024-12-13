@@ -1,0 +1,109 @@
+@media (max-width:1025px) {
+    .topic {
+        display: flex;
+        flex-direction: column;
+        padding-left: 150px;
+         
+       
+    }
+   
+    .info{
+        padding: 24px;
+    }
+    #firstN, #Num{
+        width: 109%;
+    }
+    #name{
+        color: gray;
+        font-size: 14px;
+    }
+    .select{
+        margin-left: -8px;
+        
+    }
+    #Destination,#arrival{
+        width: 292px;
+        margin-right: 12px;
+        
+    }
+    #date{
+        margin-left: 10.7%;
+    }
+    #Amoung-car{
+        width:272px ;
+        margin-left: 9.5%;
+    }
+    #Bio{
+        margin-left: 10.70%;
+        width: 272px;
+        border: 1px solid grey;
+    }
+    .Vehicle{
+        font-size: 15px;
+    }
+    .type{
+        font-weight: 620;
+    }
+    .left{
+        padding-left: 0px;
+        margin-top: -100px;
+    }
+    .image-car>img{
+        width: 450px;
+    }
+    .Save{
+        width: 450px;
+        padding-left:200px;
+    }
+}
+@media (max-width:431px) {
+    body{
+        width: 100%;
+    }
+    .booking{
+        font-size: 26px;
+        
+    }
+    .topic {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 30px;
+         
+       
+    }
+    .name-num{
+        display:flex ;
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+    .info:nth-child(1){
+        margin-left: 0%;
+        width: 58%;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: space-evenly;
+    }
+    #Destination{
+        margin-left: 1.9%;
+        margin-bottom: 10px;
+    }
+    #date{
+        width: 100px;
+    }
+    .left{
+        max-width: 100px;
+    }
+    .image-car>img{
+        max-width: 100px;
+    }
+    .Save{
+        max-width: 100px;
+    }
+
+}
