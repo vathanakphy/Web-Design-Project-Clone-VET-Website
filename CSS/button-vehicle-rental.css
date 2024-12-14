@@ -71,8 +71,9 @@ fieldset{
 }
 .choice input{
 
-   height: 15px;
-   width: 15px;
+   height: 18px;
+   width: 18px;
+   
 }
 .Journey{
    margin-left: 2%;
@@ -86,7 +87,7 @@ fieldset{
    color: grey;
 }
 #One{
-   margin-left: 9%;
+   margin-left: 10%;
 }
 #Amoung-car{
    margin-top: 12px;
@@ -110,6 +111,7 @@ fieldset{
 
    padding-bottom: 24px;
 }
+
 
 #Destination,#arrival{
    width: 270px;
