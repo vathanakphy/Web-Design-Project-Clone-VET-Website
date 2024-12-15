@@ -3,7 +3,13 @@
 fieldset{
    border: none;
 }
+.content-vehicle{
+   max-width: 1120px;
+   width: 100%;
+   margin: auto;
+   padding-top: 53px;
 
+}
 #firstN, #Num {
    width: 103%; 
    height: 40px; 
@@ -35,7 +41,7 @@ fieldset{
 
 .booking{
    font-weight: 600;
-   font-size: 126%;
+   font-size: 20px;
    margin-bottom: 12px;
    margin-top: -1.25%;
    padding-left: 1%;
@@ -65,8 +71,9 @@ fieldset{
 }
 .choice input{
 
-   height: 15px;
-   width: 15px;
+   height: 18px;
+   width: 18px;
+   
 }
 .Journey{
    margin-left: 2%;
@@ -80,7 +87,7 @@ fieldset{
    color: grey;
 }
 #One{
-   margin-left: 9%;
+   margin-left: 10%;
 }
 #Amoung-car{
    margin-top: 12px;
@@ -101,8 +108,10 @@ fieldset{
    display: flex;
    flex-direction: row;
    padding: 12px;
+
    padding-bottom: 24px;
 }
+
 
 #Destination,#arrival{
    width: 270px;
@@ -159,7 +168,11 @@ fieldset{
    flex-direction: row;
 }
 .right{
-   flex-grow: 2;
+   flex-grow: 2;  
+}
+.image-car>img{
+  width: auto;
+  border-radius: 4px;
 }
 .left{
    flex-grow: 2;
@@ -195,14 +208,8 @@ fieldset{
    border: none;
 }
 .main{
-   background-color: #FFFFFF;
-   padding: 0% 10% 0% 10%;
-   margin-left: 34px;
-}
-.content-vehicle{
-   max-width: 1400px;
-   margin-top: 125px;
-
+   
+   background-color: white;
 }
 .sub-title{
    font-size: 15px;
