@@ -63,9 +63,8 @@ input[type="radio"] {
    border-color: rgb(49, 39, 131);
 }
 input[type="radio"]:checked {
-   color: rgb(49, 39, 131);
-   caret-color: rgb(49, 39, 131);
    opacity: 1;
+   accent-color:  rgb(49, 39, 131);
 }
 label[for="cambodian"],
 label[for="non-cambodian"] {
