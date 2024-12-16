@@ -22,34 +22,39 @@
         padding: 0px;
         padding-left: 20px;
         width: 410px;
+       
     }
+
     .content-vehicle{
         max-width: 320px;
         width: 320px;
         margin:0px;
-        margin-top: 125px;
+        margin-top: 85px;
     }
     .top{
-        text-align:start;
+        text-align: center;
         width: 320px;
+        margin-left: 35px;
  
     }
     .under-top{
         display: grid;
         grid-template-rows: repeat(1,1fr);
-        margin-left: -30px;
+        margin-left: 30px;
+    }
+    .under-top>button{
+        margin-left: 45px;
     }
     .title{
         white-space: normal;
         width: 320px;
+        font-size:24px ;
     }
     .para-title{
         max-width: 320px;
         padding-right: 20px;
     }
-    .title-para{
 
-    }
     .vehicle-picture{
         width: 320px;
     }
@@ -62,6 +67,10 @@
     .para{
         grid-template-columns: repeat(1,1fr);
         column-gap: 0px;
+        padding-bottom: 12px;
+    }
+    .para:nth-child(6){
+        padding-bottom: 104px;
     }
 .p2,.p4,.p6{
     grid-row: 2;
