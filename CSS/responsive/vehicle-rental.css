@@ -1,0 +1,90 @@
+@media (max-width:1025px){
+    body{
+        max-width: 1025px;
+    }
+    .top{
+       margin-right: 0px;
+
+    }
+    .image3>img{
+        width: 450px;
+    }
+    .p6{
+        width: 450px;
+    }
+    .image6>img{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+}
+@media (max-width:431px){
+    .main{
+        padding: 0px;
+        padding-left: 20px;
+        width: 410px;
+    }
+    .content-vehicle{
+        max-width: 320px;
+        width: 320px;
+        margin:0px;
+        margin-top: 125px;
+    }
+    .top{
+        text-align:start;
+        width: 320px;
+ 
+    }
+    .under-top{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        margin-left: -30px;
+    }
+    .title{
+        white-space: normal;
+        width: 320px;
+    }
+    .para-title{
+        max-width: 320px;
+        padding-right: 20px;
+    }
+    .title-para{
+
+    }
+    .vehicle-picture{
+        width: 320px;
+    }
+    .All-car{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 320px;
+        gap:10px;
+    }
+    .para{
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 0px;
+    }
+.p2,.p4,.p6{
+    grid-row: 2;
+}
+.image2,.image4,.image6{
+    grid-row: 1;
+}
+.image1>img,.image2>img,.image3>img,.image4>img,.image5>img,.image6>img{
+    width: 320px;
+}
+.image3>img{
+    margin-right: 0px;
+}
+.image6{
+    width: 320px;
+}
+.image1,.image2.image3.image4.image5.image6{
+    width: 320px;
+}
+.para{
+    width: 320px;
+}
+.p1 h1,.p2 h1{
+    width: 320px;
+ }
+}
