@@ -20,7 +20,7 @@
 @media (max-width:431px){
     .main{
         padding: 0px;
-        padding-left: 20px;
+        padding-left: 40px;
         width: 410px;
        
     }
@@ -79,7 +79,8 @@
     grid-row: 1;
 }
 .image1>img,.image2>img,.image3>img,.image4>img,.image5>img,.image6>img{
-    width: 320px;
+    width: 380px;
+    height: 236px;
 }
 .image3>img{
     margin-right: 0px;
