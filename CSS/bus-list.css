@@ -14,6 +14,7 @@
    width: 100%;
    display: flex;
    flex-direction: column;
+   row-gap: 22px;
 }
 
 .trip-path {
@@ -110,7 +111,6 @@
    color: rgba(0, 0, 0, 0.87);
    border-radius: 12px;
    background-color: white;
-   width: 100%;
    margin: auto;
 
 }
@@ -359,11 +359,31 @@
 }
 
 @media (max-width:960px) {
+   .main{
+      margin-left: 30px;
+   }
+   #trip-detail{
+      width: 100vw;
+   }
+   .trip-path  {
+      display: none;
+   }
+   .trip-container {
+      max-width: 1120px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      max-width: 1120px;
+      row-gap: 22px;
+      margin: auto;
+      padding-bottom: 22px;
+   }
    .head-detial-trip {
       display: grid;
       padding: 20px;
+      width: 100vw;
+      background-color: white;
    }
-
    .seat-road {
       grid-row: 1/2;
       grid-column: 1/3;
@@ -372,7 +392,6 @@
       grid-template-rows: 2;
       column-gap: 4.3vw;
    }
-
    .logo-trip-vehicle {
       grid-column: 1/2;
       grid-row: 1/3;
@@ -419,6 +438,7 @@
       align-content: center;
       justify-content: space-between;
       padding: 10px 20px 10px 20px;
+      width: 100vw;
    }
 
    .trip-infor {
