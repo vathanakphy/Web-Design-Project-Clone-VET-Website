@@ -29,7 +29,8 @@
    background-color: white;
 }
 .resort:hover{
-   transform: scale(1.025);
+   transform: scale(1.065);
+   transition: 0.3s ease-in-out;
 }
 .resort>img{
    width: 100%;
@@ -51,8 +52,12 @@
    padding: 4px 12px;
    border-radius: 6px;
    background-color:  #F3F4F6;
+   font-weight: 600;
+
    color: rgb(51, 51, 51);
 }
 .detail-infor:hover{
-   background-color: #E5E7EB;
+   background-color: #DE5D0A;
+   color: white;
+   font-weight: 600;
 }
