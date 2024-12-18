@@ -6,7 +6,17 @@
        margin-right: 0px;
 
     }
+    .image1>img{
+        width: 460px;
+    }
     .image3>img{
+        width: 450px;
+        margin-right: 0px;
+    }
+    .p2{
+        width: 450px;
+    }
+    .p2 h1{
         width: 450px;
     }
     .p6{
