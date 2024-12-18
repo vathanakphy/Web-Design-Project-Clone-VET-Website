@@ -190,7 +190,9 @@ input[type="date"]::placeholder{
    row-gap: 22px;
 }
 @media (max-width:960px) {
-   
+   #trip-detail{
+      width: 100vw;
+   }
    #booking{
       display: none;
    }
